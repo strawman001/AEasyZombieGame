@@ -26,4 +26,9 @@ public class Gamemanager : MonoBehaviour
         SceneManager.LoadScene("Cancel"); 
         sceneName = SceneManager.GetActiveScene().name;
     }
+    public void GoInform()
+    {
+        SceneManager.LoadScene("InformationScene");
+        sceneName = SceneManager.GetActiveScene().name;
+    }
 }
