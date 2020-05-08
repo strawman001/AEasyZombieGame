@@ -18,6 +18,18 @@ public class Gamemanager : MonoBehaviour
     }
     public void GoMain(){
         SceneManager.LoadScene("MainScene"); 
+<<<<<<< HEAD
+=======
+        sceneName = SceneManager.GetActiveScene().name;
+    }
+    public void GoLoad(){
+        SceneManager.LoadScene("OldgameScene"); 
+>>>>>>> 4aa7945709af4bf5a5ee21df2a74577f266a0405
+        sceneName = SceneManager.GetActiveScene().name;
+    }
+    public void GoInform()
+    {
+        SceneManager.LoadScene("InformationScene");
         sceneName = SceneManager.GetActiveScene().name;
     }
     public void GoInform()
