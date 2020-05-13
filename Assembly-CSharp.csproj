@@ -63,12 +63,13 @@
      <Compile Include="Assets\Scripts\Action\Movement.cs" />
      <Compile Include="Assets\Scripts\GUI\BrainCollection.cs" />
      <Compile Include="Assets\Scripts\GUI\GameMenu.cs" />
+     <Compile Include="Assets\Scripts\GUI\Gamemanager.cs" />
      <Compile Include="Assets\Scripts\GUI\HPControl.cs" />
      <Compile Include="Assets\Scripts\GUI\InformationMenu.cs" />
-     <Compile Include="Assets\Scripts\Gamemanager.cs" />
      <Compile Include="Assets\Scripts\JoyStick\EnumFlagsAttribute.cs" />
      <Compile Include="Assets\Scripts\JoyStick\EnumFlagsDrawer.cs" />
      <Compile Include="Assets\Scripts\JoyStick\Joystick.cs" />
+     <Compile Include="Assets\ScrollRectImageManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

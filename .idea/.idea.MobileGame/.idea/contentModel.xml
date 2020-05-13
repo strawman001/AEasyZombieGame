@@ -10,9 +10,9 @@
             <e p="Attack2.cs" t="Include" />
             <e p="Movement.cs" t="Include" />
           </e>
-          <e p="Gamemanager.cs" t="Include" />
           <e p="GUI" t="Include">
             <e p="BrainCollection.cs" t="Include" />
+            <e p="Gamemanager.cs" t="Include" />
             <e p="GameMenu.cs" t="Include" />
             <e p="HPControl.cs" t="Include" />
             <e p="InformationMenu.cs" t="Include" />
@@ -23,6 +23,7 @@
             <e p="Joystick.cs" t="Include" />
           </e>
         </e>
+        <e p="ScrollRectImageManager.cs" t="Include" />
       </e>
       <e p="MobileGame.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
