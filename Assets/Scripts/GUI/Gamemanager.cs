@@ -27,7 +27,7 @@ public class Gamemanager : MonoBehaviour
         // int BrainNumber = 0;
         sceneName = SceneManager.GetActiveScene().name;
     }
-    public void GoThirdGame(){
+    public void GoThirdLevel(){
         SceneManager.LoadScene("ThirdGameScene");
         // int BrainNumber = 0;
         sceneName = SceneManager.GetActiveScene().name;

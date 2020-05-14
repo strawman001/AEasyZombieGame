@@ -22,11 +22,6 @@ public class GameMenu : MonoBehaviour
      UnityEngine.SceneManagement.SceneManager.LoadScene(0);
      Time.timeScale = 1f;
  }
- public void GoMain(){
-     SceneManager.LoadScene("MainScene"); 
-     sceneName = SceneManager.GetActiveScene().name;
- }
- 
     void Update()
     {
       

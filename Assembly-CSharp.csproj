@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4FAA534C-8117-6345-B54A-980722458A13}</ProjectGuid>
+    <ProjectGuid>{0989E2D4-C778-1CBC-7100-9A7C9E1D9EE1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,36 +66,36 @@
      <Compile Include="Assets\Scripts\GUI\Gamemanager.cs" />
      <Compile Include="Assets\Scripts\GUI\HPControl.cs" />
      <Compile Include="Assets\Scripts\GUI\InformationMenu.cs" />
+     <Compile Include="Assets\Scripts\GUI\ScrollRectImageManager.cs" />
      <Compile Include="Assets\Scripts\JoyStick\EnumFlagsAttribute.cs" />
      <Compile Include="Assets\Scripts\JoyStick\EnumFlagsDrawer.cs" />
      <Compile Include="Assets\Scripts\JoyStick\Joystick.cs" />
-     <Compile Include="Assets\ScrollRectImageManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/zhengli/Downloads/MobileGame copy 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
