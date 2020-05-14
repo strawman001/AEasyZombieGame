@@ -7,11 +7,6 @@ public class Gamemanager : MonoBehaviour
 {
     private int BrainNumber;
     private string sceneName;
-    public void GoSetting(){
-        SceneManager.LoadScene("SettingScene"); 
-        sceneName = SceneManager.GetActiveScene().name;
-    }
-
     public void GoSelect()
     {
         SceneManager.LoadScene("SelectScene");

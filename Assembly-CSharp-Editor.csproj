@@ -12,11 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-<<<<<<< HEAD
     <ProjectGuid>{420DC27C-2F3A-129C-CA98-6ECECE4E4225}</ProjectGuid>
-=======
-    <ProjectGuid>{5396FFC3-3A5E-B6AB-CE7C-EE1A6EA51238}</ProjectGuid>
->>>>>>> 5a1588e82d09e206778145a8dc21ef2b7988833f
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,7 +60,6 @@
   <ItemGroup>
      <Compile Include="Assets\EnumFlags\Editor\EnumFlagsDrawer.cs" />
  <Reference Include="UnityEditor.TestRunner">
-<<<<<<< HEAD
  <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
@@ -96,39 +91,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/zhengli/Downloads/MobileGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-=======
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>/Users/zhengli/SIT374_1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
->>>>>>> 5a1588e82d09e206778145a8dc21ef2b7988833f
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -320,11 +282,7 @@
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
-<<<<<<< HEAD
  <HintPath>/Users/zhengli/Downloads/MobileGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
-=======
- <HintPath>/Users/zhengli/SIT374_1/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
->>>>>>> 5a1588e82d09e206778145a8dc21ef2b7988833f
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -683,11 +641,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-<<<<<<< HEAD
       <Project>{4FAA534C-8117-6345-B54A-980722458A13}</Project>
-=======
-      <Project>{67FB578D-F237-0875-78E2-6B2EA9BF3F01}</Project>
->>>>>>> 5a1588e82d09e206778145a8dc21ef2b7988833f
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
