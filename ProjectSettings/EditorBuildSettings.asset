@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene/ThirdGameScene.unity
     guid: d7dc3bd16652f400583a485b156e12ad
+  - enabled: 1
+    path: Assets/Scenes/OtherScene/AnimationScene.unity
+    guid: 3469de6db28c344938fa088a6a256fbb
   m_configObjects: {}
