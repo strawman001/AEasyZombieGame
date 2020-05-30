@@ -58,9 +58,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AIcodetest.cs" />
      <Compile Include="Assets\Scripts\Action\Attack1.cs" />
      <Compile Include="Assets\Scripts\Action\Attack2.cs" />
      <Compile Include="Assets\Scripts\Action\Movement.cs" />
+     <Compile Include="Assets\Scripts\Action\NewmonsterAI.cs" />
      <Compile Include="Assets\Scripts\Action\camera.cs" />
      <Compile Include="Assets\Scripts\Action\camera2.cs" />
      <Compile Include="Assets\Scripts\GUI\BrainCollection.cs" />
