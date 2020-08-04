@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\GUI\HPControl.cs" />
      <Compile Include="Assets\Scripts\GUI\InformationMenu.cs" />
      <Compile Include="Assets\Scripts\GUI\ScrollRectImageManager.cs" />
+     <Compile Include="Assets\Scripts\GUI\StoreMenu.cs" />
      <Compile Include="Assets\Scripts\JoyStick\EnumFlagsAttribute.cs" />
      <Compile Include="Assets\Scripts\JoyStick\EnumFlagsDrawer.cs" />
      <Compile Include="Assets\Scripts\JoyStick\Joystick.cs" />
