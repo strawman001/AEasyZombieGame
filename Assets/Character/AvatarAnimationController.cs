@@ -126,7 +126,7 @@ public class AvatarAnimationController : MonoBehaviour
     {
         //one time animation call, returns to idle animation
         animatorController.SetInteger("AnimType", 2);
-        animatorController.SetInteger("AnimSubType", 2);
+        animatorController.SetInteger("AnimSubType", 1);
         animatorController.SetTrigger("Attack");
     }
 
@@ -134,10 +134,17 @@ public class AvatarAnimationController : MonoBehaviour
     {
         //one time animation call, returns to idle animation
         animatorController.SetInteger("AnimType", 2);
-        animatorController.SetInteger("AnimSubType", 1);
+        animatorController.SetInteger("AnimSubType", 2);
         animatorController.SetTrigger("Attack");
     }
-    
+
+    public void HumanMelee()
+    {
+        //one time animation call, returns to idle animation
+        animatorController.SetInteger("AnimType", 2);
+        animatorController.SetInteger("AnimSubType", 3);
+        animatorController.SetTrigger("Attack");
+    }
     public void HumanDying()
     {
         animatorController.SetInteger("AnimType", 4);
