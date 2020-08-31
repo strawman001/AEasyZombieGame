@@ -65,7 +65,6 @@
   <ItemGroup>
     <Compile Include="Assets\Character\AvatarAnimationController.cs" />
     <Compile Include="Assets\Character\DemoControlScript.cs" />
-    <Compile Include="Assets\OldFolderCharacters\PumpkinheadAnimation.cs" />
     <Compile Include="Assets\Scripts\Action\AIcodetest.cs" />
     <Compile Include="Assets\Scripts\Action\Attack1.cs" />
     <Compile Include="Assets\Scripts\Action\Attack2.cs" />
@@ -86,9 +85,6 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/SIT374_TeamProject-A/an-awesome-zombie-game_2020t2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/SIT374_TeamProject-A/an-awesome-zombie-game_2020t2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/SIT374_TeamProject-A/an-awesome-zombie-game_2020t2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -97,9 +93,6 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>D:/SIT374_TeamProject-A/an-awesome-zombie-game_2020t2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/SIT374_TeamProject-A/an-awesome-zombie-game_2020t2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/SIT374_TeamProject-A/an-awesome-zombie-game_2020t2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>

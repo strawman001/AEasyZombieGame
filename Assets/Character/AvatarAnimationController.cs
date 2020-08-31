@@ -122,7 +122,22 @@ public class AvatarAnimationController : MonoBehaviour
         animatorController.SetInteger("AnimSubType", 0);
         animatorController.SetTrigger("Attack");
     }
+    public void HumanKicking()
+    {
+        //one time animation call, returns to idle animation
+        animatorController.SetInteger("AnimType", 2);
+        animatorController.SetInteger("AnimSubType", 2);
+        animatorController.SetTrigger("Attack");
+    }
 
+    public void HumanPunching()
+    {
+        //one time animation call, returns to idle animation
+        animatorController.SetInteger("AnimType", 2);
+        animatorController.SetInteger("AnimSubType", 1);
+        animatorController.SetTrigger("Attack");
+    }
+    
     public void HumanDying()
     {
         animatorController.SetInteger("AnimType", 4);
