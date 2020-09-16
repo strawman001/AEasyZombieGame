@@ -60,7 +60,6 @@
     <Compile Include="Assets\Scripts\Action\camera2.cs" />
     <Compile Include="Assets\Scripts\Action\Movement.cs" />
     <Compile Include="Assets\Scripts\GUI\StoreMenu.cs" />
-    <Compile Include="Assets\OldFolderCharacters\PumpkinheadAnimation.cs" />
     <Compile Include="Assets\Scripts\GUI\HPControl.cs" />
     <Compile Include="Assets\Scripts\Action\Attack1.cs" />
     <Compile Include="Assets\Scripts\GUI\InformationMenu.cs" />
