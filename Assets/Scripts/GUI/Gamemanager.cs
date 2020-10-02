@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Gamemanager : MonoBehaviour
 {
-    private int BrainNumber;
+    private int brainNumber;
     private string sceneName;
     public void GoSelect()
     {
@@ -13,7 +13,7 @@ public class Gamemanager : MonoBehaviour
         sceneName = SceneManager.GetActiveScene().name;
     }
     public void GoFirstLevel(){
-        SceneManager.LoadScene("FirstGameScene");
+        SceneManager.LoadScene("GameSceneDemo");
        // int BrainNumber = 0;
         sceneName = SceneManager.GetActiveScene().name;
     }

@@ -6,19 +6,32 @@ using UnityEngine.UI;
 public class BrainCollection : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int BrainNumber = 88;
+    private int brainNumber;
+    private int target = 2;
+    //public GameObject Brain;
+    public GameObject gamePassImage;
+    public void Start()
+  {
+      brainNumber = 0;
+      GetComponent<Text>().text = brainNumber +" = " + target;
+      
+  }
+  //   public void Update()
+  // { 
+  // }
+  public void BrainUpdate()
+  {
+      if (brainNumber < (target - 1)){
+          brainNumber = brainNumber + 1;
+          GetComponent<Text>().text = brainNumber + " = " + target;
+      }
+      else
+      {
+          GetComponent<Text>().text =  target + " = " + target;
+          Time.timeScale = 1f;
+          gamePassImage.SetActive(true);
+      }
 
-  //  private void Start()
-  //  {
-  //      int BrainNubber = 88;
-  //      GetComponent<Text>().text = BrainNumber.ToString();
-  //  }
-
-    void Update()
-    {
-        GetComponent<Text>().text = BrainNumber.ToString();
-    }
-
-    // Update is called once per frame
+  }
     
 }

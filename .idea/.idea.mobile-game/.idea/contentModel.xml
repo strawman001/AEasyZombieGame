@@ -6,6 +6,12 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Pixel Art Icon Pack - RPG" t="Include">
+          <e p="Shader" t="Include">
+            <e p="SH Sprite Icon Outline Color.shader" t="Include" />
+            <e p="SH UI Icon Outline Color.shader" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Action" t="Include">
             <e p="AIcodetest.cs" t="Include" />
@@ -24,7 +30,9 @@
             <e p="HPControl.cs" t="Include" />
             <e p="InformationMenu.cs" t="Include" />
             <e p="ScrollRectImageManager.cs" t="Include" />
+            <e p="soundeffect_control.cs" t="Include" />
             <e p="StoreMenu.cs" t="Include" />
+            <e p="TaskMenu.cs" t="Include" />
           </e>
           <e p="JoyStick" t="Include">
             <e p="EnumFlagsAttribute.cs" t="Include" />

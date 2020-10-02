@@ -5,80 +5,48 @@ using UnityEngine;
 public class DemoControlScript : MonoBehaviour
 {
     public AvatarAnimationController controller;
-    public AvatarAnimationController controller2;
-
+    
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Keypad0))
         {
             controller.ZombieIdle();
         }
-        else if (Input.GetKeyDown(KeyCode.W))
+        else if (Input.GetKeyDown(KeyCode.Keypad1))
         {
             controller.ZombieWalk();
         }
-        else if (Input.GetKeyDown(KeyCode.E))
+        else if (Input.GetKeyDown(KeyCode.Keypad2))
         {
             controller.ZombieRun();
         }
-        else if (Input.GetKeyDown(KeyCode.R))
+        else if (Input.GetKeyDown(KeyCode.Keypad3))
         {
             controller.ZombieAttack1();
         }
-        else if (Input.GetKeyDown(KeyCode.T))
+        else if (Input.GetKeyDown(KeyCode.Keypad4))
         {
             controller.ZombieAttack2();
         }
-        else if (Input.GetKeyDown(KeyCode.Y))
+        else if (Input.GetKeyDown(KeyCode.Keypad5))
         {
             controller.ZombiePunch();
         }
-        else if (Input.GetKeyDown(KeyCode.U))
+        else if (Input.GetKeyDown(KeyCode.Keypad6))
         {
             controller.ZombieScream();
         }
-        else if (Input.GetKeyDown(KeyCode.I))
+        else if (Input.GetKeyDown(KeyCode.Keypad7))
         {
             controller.ZombieDance();
         }
-        else if (Input.GetKeyDown(KeyCode.O))
+        else if (Input.GetKeyDown(KeyCode.Keypad8))
         {
             controller.ZombieGettingHit();
         }
-        else if (Input.GetKeyDown(KeyCode.P))
+        else if (Input.GetKeyDown(KeyCode.Keypad9))
         {
             controller.ZombieDying();
         }
-
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            controller2.HumanIdle();
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            controller2.HumanWalk();
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            controller2.HumanRun();
-        }
-        else if (Input.GetKeyDown(KeyCode.F))
-        {
-            controller2.HumanShootGun1();
-        }
-        else if (Input.GetKeyDown(KeyCode.G))
-        {
-            controller2.HumanPunching();
-        }
-        else if (Input.GetKeyDown(KeyCode.H))
-        {
-            controller2.HumanKicking();
-        }
-        else if (Input.GetKeyDown(KeyCode.J))
-        {
-            controller2.HumanMelee();
-        }
-
     }
 }
