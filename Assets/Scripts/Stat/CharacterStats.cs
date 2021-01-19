@@ -5,7 +5,7 @@ public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
     
-    [SerializeField] protected int currentHealth { get; set; }
+    [SerializeField] public int currentHealth { get; set; }
 
     public Stat damage;
     public Stat armor;
