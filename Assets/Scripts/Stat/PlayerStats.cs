@@ -27,8 +27,8 @@ public class PlayerStats : CharacterStats
     {
         Slider.value = currentHealth;
         
-        if (Slider.normalizedValue <= 0.5f) 
-            fill.color = Gradient.Evaluate(Slider.normalizedValue);
+        //if (Slider.normalizedValue <= 0.5f) 
+        fill.color = Gradient.Evaluate((float)currentHealth/(float)Slider.maxValue);
     }
 
     protected override void Die()
