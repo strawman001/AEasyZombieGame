@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c90e6faeb60469944921539a669db542
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - healingPotion: {fileID: 7141623497338865324, guid: c894e310f99afad4c9d74c6a62b63f23,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

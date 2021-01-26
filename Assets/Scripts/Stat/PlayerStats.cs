@@ -19,16 +19,17 @@ public class PlayerStats : CharacterStats
     void Start()
     {
         animator = GetComponent<AvatarAnimationController>();
-        Slider.maxValue = maxHealth;
-        fill.color = Color.green;
+        //Slider.maxValue = maxHealth;
+        //fill.color = Color.green;
     }
 
     private void Update()
     {
+        /*
         Slider.value = currentHealth;
         
         //if (Slider.normalizedValue <= 0.5f) 
-        fill.color = Gradient.Evaluate((float)currentHealth/(float)Slider.maxValue);
+        fill.color = Gradient.Evaluate((float)currentHealth/(float)Slider.maxValue);*/
     }
 
     protected override void Die()
@@ -39,7 +40,7 @@ public class PlayerStats : CharacterStats
         animator.ZombieDying();
         
         // Call function to restart the game
-        PlayerManager.instance.KillPlayer();
+        //PlayerManager.instance.KillPlayer();
         
         Time.timeScale = 1f;
         GameDeathImage.SetActive(true);
