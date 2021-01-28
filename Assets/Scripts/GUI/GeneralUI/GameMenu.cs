@@ -11,11 +11,18 @@ public class GameMenu : MonoBehaviour
  //   private AudioSource BGMSource;//MARKER BGM Source
  private string sceneName;
  private GameObject gameMenuImage;
-
+ private SceneController sceneController;
+ private AudioSource audioSource;
+ private bool auidoSourceTrigger = true;
+ private Slider bgmSlider;
  private void Start()
  {
      gameMenuImage = GetComponent<UIComponentManager>().GetUIComponent("GameMenu");
+     sceneController = GetComponent<UIComponentManager>().GetUIComponent("SceneController").GetComponent<SceneController>();
+     audioSource = GetComponent<UIComponentManager>().GetUIComponent("Camera").GetComponent<AudioSource>();
+     bgmSlider = GetComponent<UIComponentManager>().GetUIComponent("GameMenu").transform.GetChild(2).GetComponent<Slider>();
  }
+
 
  public void OnPause(){
      Time.timeScale = 0;
@@ -31,11 +38,24 @@ public class GameMenu : MonoBehaviour
  }
  public void QuitGame() {
      Time.timeScale = 1f;
-     SceneManager.LoadScene("MainScene"); 
-     sceneName = SceneManager.GetActiveScene().name;
+     sceneController.GoMainScene();
  }
-    void Update()
-    {
-      
-    }
+ 
+ public void OnChangeVol()
+ {
+     audioSource.volume = bgmSlider.value;
+ }
+
+ public void TriggerAudio()
+ {
+     auidoSourceTrigger = !auidoSourceTrigger;
+     if (auidoSourceTrigger)
+     {
+         audioSource.Play();
+     }
+     else
+     {
+         audioSource.Pause();
+     }
+ }
 }

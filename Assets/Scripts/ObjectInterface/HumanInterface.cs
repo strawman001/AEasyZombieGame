@@ -171,7 +171,7 @@ public class HumanInterface : BioInterface
             {
                 for (int j = 0; j < 2; j++)
                 {
-                    Vector3 pos = new Vector3(transform.position.x,13,transform.position.z);
+                    Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                     bool isHitted = Physics.Raycast(pos, transform.rotation * Quaternion.Euler(0,Random.Range(startAngle[i],endAngle[i]),0) * Vector3.forward, out hit, distence);
                     //Debug.Log(isHitted);
                     if (isHitted && hit.collider.CompareTag(tag))
