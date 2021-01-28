@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class PeopleController : MonoBehaviour
 {
     public Vector3[] patrolPoints;
     
     public float attackDistence = 15f;
     public float viewDistence = 40f;
+    
+    private AudioClip audioClip;
+    private AudioSource audioSource;
     
     private HumanInterface humanInterface;
     
@@ -24,13 +26,17 @@ public class PeopleController : MonoBehaviour
     private bool isSearchFinished = false;
     private Vector3 lastPos;
     private bool isBeginSearching = false;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log(attackDistence);
         humanInterface = GetComponent<HumanInterface>();
         target = GameObject.Find("Player");
+        //获取当前GameObject的AudioSource组件的AduioPlayer
+        audioClip = gameObject.GetComponent<AudioSource>().clip;
+        //获取当前GameObject的AudioSource组件
+        audioSource = this.gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -59,6 +65,7 @@ public class PeopleController : MonoBehaviour
     {
         if (!isAttackingCoolDown && !ReferenceEquals(target,null))
         {
+            audioSource.PlayOneShot(audioClip, 0.4f);
             humanInterface.StopMove();
             lastPos = target.transform.position;
             isAttackingCoolDown = true;

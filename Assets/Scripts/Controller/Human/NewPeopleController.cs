@@ -9,6 +9,9 @@ public class NewPeopleController : MonoBehaviour
     private float attackDistence = 1.5f;
     public float viewDistence = 4.0f;
 
+    private AudioClip audioClip;
+    private AudioSource audioSource;
+
     private HumanInterface humanInterface;
 
     private bool isRunning = false;
@@ -30,6 +33,10 @@ public class NewPeopleController : MonoBehaviour
         Debug.Log(attackDistence);
         humanInterface = GetComponent<HumanInterface>();
         target = GameObject.Find("Player");
+        //Gets the AduioPlayer for the AudioSource component of the current GameObject
+        audioClip = gameObject.GetComponent<AudioSource>().clip;
+        //Gets the AudioSource component of the current GameObject
+        audioSource = this.gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -58,6 +65,7 @@ public class NewPeopleController : MonoBehaviour
     {
         if (!isAttackingCoolDown && !ReferenceEquals(target, null))
         {
+            audioSource.PlayOneShot(audioClip, 0.4f);
             humanInterface.StopMove();
             lastPos = target.transform.position;
             isAttackingCoolDown = true;
