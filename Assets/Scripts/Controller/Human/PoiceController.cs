@@ -10,6 +10,8 @@ public class PoiceController : MonoBehaviour
     public float attackDistence = 30f;
     public float viewDistence = 40f;
     
+    private AudioClip audioClip;
+    private AudioSource audioSource;
     private HumanInterface humanInterface;
     
     private bool isRunning = false;
@@ -30,6 +32,10 @@ public class PoiceController : MonoBehaviour
     {
         humanInterface = GetComponent<HumanInterface>();
         target = GameObject.Find("Player");
+        //获取当前GameObject的AudioSource组件的AduioPlayer
+        audioClip = gameObject.GetComponent<AudioSource>().clip;
+        //获取当前GameObject的AudioSource组件
+        audioSource = this.gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -59,6 +65,7 @@ public class PoiceController : MonoBehaviour
         if (!isAttackingCoolDown && !ReferenceEquals(target,null))
         {
             //humanInterface.StopMove();
+            audioSource.PlayOneShot(audioClip, 0.4f);
             lastPos = target.transform.position;
             isAttackingCoolDown = true;
             GameObject tempTarget = target;
