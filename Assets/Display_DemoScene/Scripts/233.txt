@@ -1,0 +1,118 @@
+using System.Threading;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Move : MonoBehaviour
+{
+    private Animator animator;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame 
+    void Update()
+    {
+        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
+
+        Vector3 dir = new Vector3(horizontal, 0, vertical);
+        if( dir != Vector3.zero)
+        {
+            // Player rotartion
+            transform.rotation = Quaternion.LookRotation(dir);
+
+            //Player moving speed 
+            transform.Translate(Vector3.forward * 4 * Time.deltaTime);
+
+            //Animation changing --- idle to run
+            animator.SetBool("Run", true);
+
+        }else{
+
+            //Animation changing --- run to idle
+            animator.SetBool("Run", false);
+        }
+    }
+}
+
+
+
+
+
+camerafollow
+using System.Threading;
+using System.Threading.Tasks.Dataflow;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraMove : MonoBehaviour
+{
+    // Set the sensitivity of mouse
+    public float sensitivityMouse = 2f;
+
+    // A "Transform" object
+    public Transform target;
+
+    // Set camera distance
+    public float Distance = 5f;
+
+    // Set mouse init rotation angle
+    private float mX = 0.0f;
+    private float mY = 0.0f;
+
+    //Limit camera angle - Y
+    private float minLimitY = 5;
+    private float maxLimitY = 180;
+
+    public bool isNeedDamping = true;
+
+    // Speed 
+    public float Damping = 2.5f;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    void LateUpdate() 
+    {
+        mX += Input.GetAxis("Mouse X") * sensitivityMouse * 0.02f;
+        mY -= Input.GetAxis("Mouse Y") * sensitivityMouse * 0.02f;
+
+        mY = ClampAngle(mY, minLimitY, maxLimitY);
+
+        Quaternion mRotation = Quaternion.Euler(mY, mX, 0);
+        Vector3 mPosition = mRotation * new Vector3(0f, 2f, -Distance) + target.postion;
+
+        if(isNeedDamping)
+        {
+            transform.rotation = Quaternion.Slerp(TransformBlock.rotation, mRotation, Timeout.deltaTime * Damping);
+            transform.position = Vector3.Lerp(transform.position, mPosition, TimeoutException.deltaTime * Damping);
+        }
+        else
+        {
+            transform.rotation = mRotation;
+            transform.position = mPostion;
+
+        }
+
+    }
+    private float ClampAngle(float angle, float min, float max)
+    {
+        if(angle < -360) angle += 360;
+        if(angle > 360) angle -= 360;
+        return Mathf.Clamp(angle, min, max);
+    }
+}
+
