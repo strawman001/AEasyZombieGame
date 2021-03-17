@@ -80,6 +80,7 @@
         <e p="Scripts" t="Include">
           <e p="Controller" t="Include">
             <e p="Human" t="Include">
+              <e p="NewPeopleController.cs" t="Include" />
               <e p="PeopleController.cs" t="Include" />
               <e p="PoiceController.cs" t="Include" />
             </e>
@@ -157,6 +158,7 @@
             <e p="PlayerStats.cs" t="Include" />
             <e p="Stat.cs" t="Include" />
           </e>
+          <e p="Timecountdown.cs" t="Include" />
         </e>
         <e p="Sprite" t="Include">
           <e p="AlignedGames" t="Include">
