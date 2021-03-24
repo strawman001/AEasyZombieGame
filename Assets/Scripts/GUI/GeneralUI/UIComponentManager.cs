@@ -8,7 +8,7 @@ public class UIComponentManager : MonoBehaviour
     private Dictionary<String, GameObject> uiComponents = new Dictionary<string, GameObject>();
     public GameObject player;
     public GameObject sceneController;
-    public GameObject camera;
+    public GameObject camera1;
     
     private void Awake()
     {
@@ -19,7 +19,7 @@ public class UIComponentManager : MonoBehaviour
         }
         uiComponents.Add("Player",player);
         uiComponents.Add("SceneController", sceneController);
-        uiComponents.Add("Camera",camera);
+        uiComponents.Add("Camera",camera1);
     }
 
     // Start is called before the first frame update
