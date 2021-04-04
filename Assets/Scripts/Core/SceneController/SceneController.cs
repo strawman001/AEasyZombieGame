@@ -7,26 +7,11 @@ public class SceneController : MonoBehaviour
 {
     public int levelSceneIndex;
 
-    private string sceneName;
-    private static string[] levelScenesName = {"GraveGameScene","CityGameScene"};
     private static string[] menuScenesName = {"TransitionScene", "MainScene", "SelectScene"};
     
     public static int targetLevelIndex = 0;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-            
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
     //Switch to a transition scene to load game scene async
     public void SwitchLevelScene(int levelIndex)
     {

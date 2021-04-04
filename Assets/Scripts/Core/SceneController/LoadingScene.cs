@@ -12,7 +12,7 @@ public class LoadingScene : MonoBehaviour
     public Slider slider;
     public GameObject buttonEnterGame;
     
-    private static string[] levelScenesName = {"GraveGameScene","CityGameScene"};
+    private static string[] levelScenesName = {"GraveGameScene","CityGameScene", "DessertGameScene" };
     
     private int targetLevelIndex;
 

@@ -12,18 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/OtherScene/SelectScene.unity
     guid: 9054548538e644bb0b42f8356d7ef664
   - enabled: 1
-    path: Assets/Scenes/GameScene/SecondGameScene.unity
-    guid: 67151113867c44fe98350752983a2300
-  - enabled: 1
-    path: Assets/Scenes/GameScene/ThirdGameScene.unity
-    guid: d7dc3bd16652f400583a485b156e12ad
-  - enabled: 1
     path: Assets/Scenes/OtherScene/TransitionScene.unity
     guid: 3469de6db28c344938fa088a6a256fbb
   - enabled: 1
-    path: Assets/Scenes/GameScene/GraveGameScene.unity
+    path: Assets/Scenes/GameScene/GraveGameScene/GraveGameScene.unity
     guid: 53973556533614541945a73595372cd6
   - enabled: 1
-    path: Assets/Scenes/GameScene/CityGameScene.unity
+    path: Assets/Scenes/GameScene/CityGameScene/CityGameScene.unity
     guid: a59d6bf7ed8a6684d878fb5e504389b5
+  - enabled: 1
+    path: Assets/Scenes/GameScene/DessertGameScene/DessertGameScene.unity
+    guid: 615bf17ccd6a1c3408eccea737a9dca3
   m_configObjects: {}
