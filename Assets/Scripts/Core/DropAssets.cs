@@ -6,6 +6,8 @@ using UnityEngine;
 public class DropAssets : MonoBehaviour
 {
     public GameObject healingPotion;
+    public GameObject healingPotionSmall;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,6 @@ public class DropAssets : MonoBehaviour
 
     public GameObject[] DropOutItems(String type)
     {
-        return new []{healingPotion};
+        return new []{healingPotion,healingPotion,healingPotionSmall};
     }
 }

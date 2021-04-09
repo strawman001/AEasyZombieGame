@@ -50,6 +50,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Controller\Item\DropItemController.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\StoreMenu.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\Scripts\Core\Camera\CameraRotate.cs" />
@@ -58,13 +59,14 @@
      <Compile Include="Assets\Scripts\Timecountdown.cs" />
      <Compile Include="Assets\Character\DemoControlScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-     <Compile Include="Assets\Scripts\Core\SceneController\SceneController.cs" />
+     <Compile Include="Assets\Scripts\Core\SceneController\SceneManager.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\InformationMenu.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\LevelMenuController.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\UIComponentManager.cs" />
-     <Compile Include="Assets\Scripts\Stat\CharacterCombat.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+     <Compile Include="Assets\Scripts\Item\ConsumableItems\HealingPotion.cs" />
+     <Compile Include="Assets\Scripts\Item\BaseItem.cs" />
      <Compile Include="Assets\Scripts\ObjectInterface\PlayerInterface.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
      <Compile Include="Assets\Scripts\Controller\Human\PoiceController.cs" />
@@ -72,19 +74,21 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\Scripts\Controller\Human\PeopleController.cs" />
+     <Compile Include="Assets\Scripts\Item\ConsumableItem.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\SceneMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-     <Compile Include="Assets\Scripts\Stat\CharacterStats.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\BrainBar.cs" />
      <Compile Include="Assets\Scripts\Controller\Item\HealingPotionController.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\Scripts\Core\GlobalData.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
+     <Compile Include="Assets\Scripts\Item\EquipmentItem.cs" />
      <Compile Include="Assets\Display_DemoScene\Effects\ImageEffects\Scripts\SunShafts.cs" />
      <Compile Include="Assets\Scripts\Core\JoyStick\EnumFlagsAttribute.cs" />
+     <Compile Include="Assets\Scripts\Core\ItemManager\UI\BackpackUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\Character\AvatarAnimationController.cs" />
@@ -100,7 +104,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\GameMenu.cs" />
      <Compile Include="Assets\Scripts\Property\Bio\Player\PlayerProperty.cs" />
-     <Compile Include="Assets\Scripts\Stat\Stat.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
@@ -110,18 +113,18 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-     <Compile Include="Assets\Scripts\EnemyAI\EnemyController.cs" />
      <Compile Include="Assets\Scripts\Controller\Human\NewPeopleController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Scripts\Controller\Things\Bullet.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Scripts\Item\WeaponItem.cs" />
+     <Compile Include="Assets\Scripts\Core\ItemManager\ItemManager.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
      <Compile Include="Assets\Scripts\Property\Bio\Human\PeopleProperty.cs" />
      <Compile Include="Assets\Scripts\Core\JoyStick\EnumFlagsDrawer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-     <Compile Include="Assets\Scripts\EnemyAI\EnemyStats.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -144,11 +147,12 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Scripts\Core\DropAssets.cs" />
      <Compile Include="Assets\Display_DemoScene\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\Scripts\Core\ItemManager\BackpackManager.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Scripts\GUI\GeneralUI\JoystickTransfer.cs" />
      <Compile Include="Assets\Scripts\Core\GameManager.cs" />
      <Compile Include="Assets\Scripts\Core\SceneController\LoadingScene.cs" />
-     <Compile Include="Assets\Scripts\Stat\PlayerStats.cs" />
+     <Compile Include="Assets\Scripts\Item\ConsumableItems\HealingPotionSmall.cs" />
      <None Include="Assets\Sprite\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
@@ -13,8 +14,15 @@ public class GameManager : MonoBehaviour
     private BrainBar brainBar;
     
     public static GlobalData globalData;
+    public static Assembly assembly = typeof(GameManager).Assembly;
     public GameObject uiController;
     public int target;
+
+    private void Awake()
+    {
+        assembly = typeof(GameManager).Assembly;
+    }
+
     private void Start()
     {
         globalData = new GlobalData(0,target);

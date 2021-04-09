@@ -44,5 +44,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelSceneIndex: 0
-  loadingProcess: 0
-  isTransitionScene: 0

@@ -23,6 +23,7 @@ public class HealingPotionController : MonoBehaviour
         
         if (other.gameObject.CompareTag("Player"))
         {
+            BackpackManager.Instance.AddItemToBackpack("1","HealingPotion",1);
             GameObject player = other.gameObject;
             PlayerInterface playerInterface = player.GetComponent<PlayerInterface>();
             playerInterface.ChangeCurrentHealth(healingValue);

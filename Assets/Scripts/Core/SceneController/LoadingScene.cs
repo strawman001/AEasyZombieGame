@@ -19,7 +19,7 @@ public class LoadingScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        targetLevelIndex = SceneController.targetLevelIndex;
+        targetLevelIndex = SceneManager.targetLevelIndex;
         StartCoroutine(LoadLevelSceneAsync());
     }
 
@@ -32,7 +32,7 @@ public class LoadingScene : MonoBehaviour
     //Load scene async
     private IEnumerator LoadLevelSceneAsync()
     {
-        AsyncOperation async = SceneManager.LoadSceneAsync(levelScenesName[targetLevelIndex]);
+        AsyncOperation async = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(levelScenesName[targetLevelIndex]);
         async.allowSceneActivation = false;
         while (!async.isDone) {
             if (async.progress < 0.9f)

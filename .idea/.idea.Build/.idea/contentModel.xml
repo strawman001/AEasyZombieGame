@@ -85,6 +85,7 @@
               <e p="PoiceController.cs" t="Include" />
             </e>
             <e p="Item" t="Include">
+              <e p="DropItemController.cs" t="Include" />
               <e p="HealingPotionController.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
@@ -102,6 +103,13 @@
             <e p="DropAssets.cs" t="Include" />
             <e p="Gamemanager.cs" t="Include" />
             <e p="GlobalData.cs" t="Include" />
+            <e p="ItemManager" t="Include">
+              <e p="BackpackManager.cs" t="Include" />
+              <e p="ItemManager.cs" t="Include" />
+              <e p="UI" t="Include">
+                <e p="BackpackUI.cs" t="Include" />
+              </e>
+            </e>
             <e p="JoyStick" t="Include">
               <e p="EnumFlagsAttribute.cs" t="Include" />
               <e p="EnumFlagsDrawer.cs" t="Include" />
@@ -109,12 +117,8 @@
             </e>
             <e p="SceneController" t="Include">
               <e p="LoadingScene.cs" t="Include" />
-              <e p="SceneController.cs" t="Include" />
+              <e p="SceneManager.cs" t="Include" />
             </e>
-          </e>
-          <e p="EnemyAI" t="Include">
-            <e p="EnemyController.cs" t="Include" />
-            <e p="EnemyStats.cs" t="Include" />
           </e>
           <e p="GUI" t="Include">
             <e p="GeneralUI" t="Include">
@@ -135,6 +139,16 @@
               <e p="ScrollRectImageManager.cs" t="Include" />
             </e>
           </e>
+          <e p="Item" t="Include">
+            <e p="BaseItem.cs" t="Include" />
+            <e p="ConsumableItem.cs" t="Include" />
+            <e p="ConsumableItems" t="Include">
+              <e p="HealingPotion.cs" t="Include" />
+              <e p="HealingPotionSmall.cs" t="Include" />
+            </e>
+            <e p="EquipmentItem.cs" t="Include" />
+            <e p="WeaponItem.cs" t="Include" />
+          </e>
           <e p="ObjectInterface" t="Include">
             <e p="BioInterface.cs" t="Include" />
             <e p="HumanInterface.cs" t="Include" />
@@ -151,12 +165,6 @@
                 <e p="PlayerProperty.cs" t="Include" />
               </e>
             </e>
-          </e>
-          <e p="Stat" t="Include">
-            <e p="CharacterCombat.cs" t="Include" />
-            <e p="CharacterStats.cs" t="Include" />
-            <e p="PlayerStats.cs" t="Include" />
-            <e p="Stat.cs" t="Include" />
           </e>
           <e p="Timecountdown.cs" t="Include" />
         </e>
