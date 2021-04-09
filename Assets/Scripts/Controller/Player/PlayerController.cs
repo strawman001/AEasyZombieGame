@@ -5,9 +5,31 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    private static PlayerController instance = null;
+    private PlayerController(){}
+    public static PlayerController Instance
+    {
+        get
+        {
+            if (instance == null)
+            {    
+                instance = new PlayerController();
+            }
+            return instance;
+        }
+    }
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+
     private PlayerInterface playerInterface;
     private CharacterController controller;
     private SphereCollider bound;
+    private AudioSource audioSource1;
+    private AudioSource audioSource2;
     
     private float joyStickHorizontalValue = 0f;
     private float joyStickVectorialValue = 0f;
@@ -23,6 +45,8 @@ public class PlayerController : MonoBehaviour
         playerInterface = GetComponent<PlayerInterface>();
         controller = GetComponent<CharacterController>();
         bound = GetComponent<SphereCollider>();
+        audioSource1 = transform.GetComponents<AudioSource>()[0];
+        audioSource2 = transform.GetComponents<AudioSource>()[1];
         controller.detectCollisions = false;
     }
 
@@ -80,7 +104,8 @@ public class PlayerController : MonoBehaviour
             isAttackingCoolDown = true;
             isBasicAttacking = true;
             playerInterface.GetAnimator().SetTrigger("Attack");
-            MakeDamage(10);
+            audioSource1.Play();
+            MakeDamage(playerInterface.GetPhysicAttackValue());
             isBasicAttacking = false;
             StartCoroutine(AttackingCoolDown());
         }
@@ -95,7 +120,8 @@ public class PlayerController : MonoBehaviour
             isAttackingCoolDown = true;
             isSpecialAttacking = true;
             playerInterface.GetAnimator().SetTrigger("Attack");
-            MakeDamage(20);
+            audioSource2.Play();
+            MakeDamage(playerInterface.GetPhysicAttackValue());
             isSpecialAttacking = false;
             StartCoroutine(AttackingCoolDown());
         }
@@ -133,7 +159,7 @@ public class PlayerController : MonoBehaviour
     
     private IEnumerator AttackingCoolDown()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.5f);
         isAttackingCoolDown = false;
     }
 }

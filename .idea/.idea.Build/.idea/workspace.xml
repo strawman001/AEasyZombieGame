@@ -22,28 +22,199 @@
     <list default="true" id="091b75d9-3bbf-47c0-b693-33f7d786ded4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Audio/zombie approaching.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Audio/zombie approaching.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/CanvasUI .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/CanvasUI .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/FocusPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/FocusPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/SceneController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/SceneController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/HealingPotion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/HealingPotion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/HealingPotionSmall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/HealingPotionSmall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/AnimationController.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/AnimationController/PeopleAnimator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/AnimationController/PeopleAnimator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/AnimationController/Player-Zombie.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/AnimationController/Player-Zombie.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/AnimationController/PoliceAnimator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/AnimationController/PoliceAnimator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Char.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Items/HealingPotion.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Items/HealingPotion.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/AnimationTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/AnimationTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/MINIMAP.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/MINIMAP.bmp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/MinimapRenderTexture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/MinimapRenderTexture.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/New Render Texture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/New Render Texture.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/ZombiePlayer2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/ZombiePlayer2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/bgMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/MyArtAssets/bgMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/ToonyTiny_Citizens_Megapack.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/ToonyTiny_Citizens_Megapack.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/ToonyTiny_City_Pack.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/ToonyTiny_City_Pack.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/ToonyTiny_Zombies_Pack.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/ToonyTiny_Zombies_Pack.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_death_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_death_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_idle_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_idle_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_attack_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_attack_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_run_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_run_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_run_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_run_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_walk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_walk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_walk_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/female/f_walk_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_death_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_death_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_idle_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_idle_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_attack_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_attack_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_run_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_melee_combat_run_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_idle_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_idle_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_run_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_run_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_shoot.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_pistol_shoot.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_run_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_run_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_walk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_walk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_walk_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/male/m_walk_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_attack_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_attack_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_death_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_death_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_idle_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_idle_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_run_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_run_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_walk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_walk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_walk_rm.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/animation/zombie/Z_walk_rm.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/Materials/TT_demo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/Materials/TT_demo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/Materials/TT_demo_texture.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/Materials/TT_demo_texture.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_female.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_female.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_male_A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_male_A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_male_B.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_male_B.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_police.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_police.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_zombie.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/models/TT_demo_zombie.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_female.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_female.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_police.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_police.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_zombie.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/prefabs/TT_demo_zombie.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/sample_scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/sample_scene/TT_Citizens_sample_scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/sample_scene/TT_Citizens_sample_scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/sample_scene/ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/sample_scene/ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/sample_scene/quad.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Packages/ToonyTinyPeople/TT_demo/sample_scene/quad.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GraveGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GraveGameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Item.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/Item.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Item/HealingPotionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/Item/HealingPotionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DropAssets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DropAssets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/LoadingScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/LoadingScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/SceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/SceneController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/SceneManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI/EnemyController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI/EnemyController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI/EnemyStats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI/EnemyStats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/GameMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/GameMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/InformationMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/InformationMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UIComponentManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UIComponentManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/HumanInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/HumanInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/PlayerInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/PlayerInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/CharacterCombat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/CharacterCombat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/CharacterStats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/CharacterStats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/PlayerStats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/PlayerStats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/Stat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stat/Stat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Style.catalog" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Style.catalog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,32 +225,38 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GlobalData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/c7/aa333865/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Property/Bio/BioProperty.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DropAssets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/65/03a6f5b0/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/74/b128d6d4/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GlobalData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/BaseItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DropAssets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/c4/0e98fe12/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectInterface/PlayerInterface.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/13/58e10f67/Buffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/JoystickTransfer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Technology/Unity/Unity/2020.1.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/ItemManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/aa/f4855ae5/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Technology/Unity/Unity/2020.1.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/81/7d57688e/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/Item/DropItemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/WeaponItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItems/HealingPotion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Technology/Unity/Unity/2020.1.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectInterface/PlayerInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/EquipmentItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/JoystickTransfer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Stat/CharacterStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item/HealingPotions/HealingPotionController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Gamemanager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/LoadingScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/SceneController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/Transition/LoadingProcessSlider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/LoadingScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraRorate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/FollowPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraRotate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property/Bio/PlayerProperty.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Camera/MiniMap.cs" />
@@ -87,9 +264,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/StoreMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/GameMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/TaskMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/InformationMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stat/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/JoystickTransfer.cs" />
@@ -97,11 +272,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/LevelMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GlobalData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/AttackController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UIComponentManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI/EnemyStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Item/HealingPotionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property/Bio/BioProperty.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property/Bio/Human/PoiceProperty.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property/Bio/Player/PlayerProperty.cs" />
@@ -109,15 +282,32 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Camera/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Things/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/LevelMenuController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/PlayerInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PoiceController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PeopleController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/BrainBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/DropOutFunction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/HumanInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Item/HealingPotionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/ItemManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItems/HealPotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Item/DropItemController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/DropAssets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UIComponentManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/PlayerInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/BaseItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/InformationMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackUI/BackpackUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItems/HealingPotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/EquipmentItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/WeaponItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItems/HealingPotionSmall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/UI/BackpackUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/GameMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/HumanInterface.cs" />
       </list>
     </option>
   </component>
@@ -128,12 +318,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.16552667" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.14227086" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -174,6 +364,13 @@
       <workItem from="1611545477544" duration="19348000" />
       <workItem from="1611633345820" duration="41456000" />
       <workItem from="1612620245646" duration="257000" />
+      <workItem from="1616569207700" duration="657000" />
+      <workItem from="1616834709829" duration="1566000" />
+      <workItem from="1617031318614" duration="29000" />
+      <workItem from="1617717361935" duration="3531000" />
+      <workItem from="1617797051281" duration="8994000" />
+      <workItem from="1617863472720" duration="23161000" />
+      <workItem from="1617952991316" duration="3168000" />
     </task>
     <servers />
   </component>
@@ -198,86 +395,90 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.0.center" timestamp="1617895380549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1611502678364">
+    <state width="1493" height="216" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617895380549" />
+    <state width="1493" height="216" key="GridCell.Tab.0.left" timestamp="1617895380549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611502678364" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617895380549" />
+    <state width="1493" height="216" key="GridCell.Tab.0.right" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.1.bottom" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.1.center" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.1.left" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.1.right" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.2.bottom" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.2.center" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.2.left" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.2.right" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.3.bottom" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.3.center" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.3.left" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1611502678365">
+    <state width="1493" height="216" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state width="1493" height="216" key="GridCell.Tab.3.right" timestamp="1617895380550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1611502678365" />
-    <state x="586" y="128" key="RiderGenerateDialog" timestamp="1611575645090">
+    <state width="1493" height="216" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
+    <state x="586" y="128" key="RiderGenerateDialog" timestamp="1617804689196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="128" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1611575645090" />
-    <state x="270" y="57" key="SettingsEditor" timestamp="1611502168962">
+    <state x="586" y="128" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1617804689196" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1617864497141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611502168962" />
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1611568727972">
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617864497141" />
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1617955315590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1611568727972" />
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1617955315590" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611478248473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611478248473" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1617876741574">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1617876741574" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612620345148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

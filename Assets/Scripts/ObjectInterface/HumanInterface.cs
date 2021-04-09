@@ -163,7 +163,7 @@ public class HumanInterface : BioInterface
         RaycastHit hit;
         int[] startAngle = {0, 30, 0, -30};
         int[] endAngle = {30, 60, -30, -60};
-        if (ReferenceEquals(target,null))
+        if (target == null)
         {
             //120 ViewAngle Every 30 degree, 2 rays
             // 8 rays to detect player

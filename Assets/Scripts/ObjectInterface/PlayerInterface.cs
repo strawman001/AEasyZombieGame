@@ -5,6 +5,20 @@ using UnityEngine;
 
 public class PlayerInterface : BioInterface
 {
+    private static PlayerInterface instance = null;
+    private PlayerInterface(){}
+    public static PlayerInterface Instance
+    {
+        get
+        {
+            if (instance == null)
+            {    
+                instance = new PlayerInterface();
+            }
+            return instance;
+        }
+    }
+    
     // Start is called before the first frame update
   
     private PlayerProperty playerProperty;
@@ -12,6 +26,8 @@ public class PlayerInterface : BioInterface
     
     void Awake()
     {
+        instance = this;
+        
         playerProperty = GetComponent<PlayerProperty>();
         animationController = GetComponent<Animator>();
     }
@@ -20,6 +36,11 @@ public class PlayerInterface : BioInterface
     void Update()
     {
         
+    }
+
+    public int GetPhysicAttackValue()
+    {
+        return playerProperty.physicalAttack;
     }
 
     public int GetCurrentHealth()

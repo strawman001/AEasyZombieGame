@@ -6,6 +6,9 @@ TagManager:
   tags:
   - flee
   - Enemy
+  - Ground
+  - Item.HealingPotion
+  - Item.HealingPotionSmall
   layers:
   - Default
   - TransparentFX
