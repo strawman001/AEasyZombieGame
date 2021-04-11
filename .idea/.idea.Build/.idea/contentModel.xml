@@ -5,9 +5,29 @@
     <e p="C:\Users\wjh\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Build.-739890509.00" t="ExcludeRecursive" />
     <e p="D:\Jonn Wei\Project\An Awesome Zombie Game\Build" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="3DAssets" t="Include">
+          <e p="Standard Assets" t="Include">
+            <e p="Environment" t="Include">
+              <e p="Water (Basic)" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="WaterBasic.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="FXWaterBasic.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Town Scene" t="Include">
+            <e p="SimplePoly - Town Pack" t="Include">
+              <e p="DemoScene" t="Include">
+                <e p="FlyCamera.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Character" t="Include">
           <e p="AvatarAnimationController.cs" t="Include" />
           <e p="DemoControlScript.cs" t="Include" />
@@ -86,7 +106,6 @@
             </e>
             <e p="Item" t="Include">
               <e p="DropItemController.cs" t="Include" />
-              <e p="HealingPotionController.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="PlayerController.cs" t="Include" />
@@ -105,16 +124,10 @@
             <e p="GlobalData.cs" t="Include" />
             <e p="ItemManager" t="Include">
               <e p="BackpackManager.cs" t="Include" />
+              <e p="EquipmentManager.cs" t="Include" />
               <e p="ItemManager.cs" t="Include" />
-              <e p="UI" t="Include">
-                <e p="BackpackUI.cs" t="Include" />
-              </e>
             </e>
-            <e p="JoyStick" t="Include">
-              <e p="EnumFlagsAttribute.cs" t="Include" />
-              <e p="EnumFlagsDrawer.cs" t="Include" />
-              <e p="Joystick.cs" t="Include" />
-            </e>
+            <e p="PlayerPropertyManager.cs" t="Include" />
             <e p="SceneController" t="Include">
               <e p="LoadingScene.cs" t="Include" />
               <e p="SceneManager.cs" t="Include" />
@@ -135,6 +148,11 @@
               <e p="TaskMenu.cs" t="Include" />
               <e p="UIComponentManager.cs" t="Include" />
             </e>
+            <e p="InformationMenu" t="Include">
+              <e p="AttributeUI.cs" t="Include" />
+              <e p="BackpackUI.cs" t="Include" />
+              <e p="EquipmentUI.cs" t="Include" />
+            </e>
             <e p="SelectMenu" t="Include">
               <e p="ScrollRectImageManager.cs" t="Include" />
             </e>
@@ -147,6 +165,9 @@
               <e p="HealingPotionSmall.cs" t="Include" />
             </e>
             <e p="EquipmentItem.cs" t="Include" />
+            <e p="EquipmentItems" t="Include">
+              <e p="LifeBond.cs" t="Include" />
+            </e>
             <e p="WeaponItem.cs" t="Include" />
           </e>
           <e p="ObjectInterface" t="Include">
@@ -187,18 +208,6 @@
             <e p="Shader" t="Include">
               <e p="SH Sprite Icon Outline Color.shader" t="Include" />
               <e p="SH UI Icon Outline Color.shader" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Standard Assets" t="Include">
-          <e p="Environment" t="Include">
-            <e p="Water (Basic)" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="WaterBasic.cs" t="Include" />
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="FXWaterBasic.shader" t="Include" />
-              </e>
             </e>
           </e>
         </e>
@@ -274,13 +283,6 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
-          </e>
-        </e>
-        <e p="Town Scene" t="Include">
-          <e p="SimplePoly - Town Pack" t="Include">
-            <e p="DemoScene" t="Include">
-              <e p="FlyCamera.cs" t="Include" />
-            </e>
           </e>
         </e>
       </e>

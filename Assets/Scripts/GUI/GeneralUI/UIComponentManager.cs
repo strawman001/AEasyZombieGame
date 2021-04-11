@@ -21,7 +21,7 @@ public class UIComponentManager : MonoBehaviour
     private Dictionary<string, GameObject> uiComponents = new Dictionary<string, GameObject>();
     public GameObject player;
     public GameObject sceneController;
-    public GameObject camera1;
+    public GameObject camera;
     
     private void Awake()
     {

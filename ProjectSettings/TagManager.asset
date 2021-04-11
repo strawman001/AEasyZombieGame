@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Item.HealingPotion
   - Item.HealingPotionSmall
+  - Item.LifeBond
   layers:
   - Default
   - TransparentFX
