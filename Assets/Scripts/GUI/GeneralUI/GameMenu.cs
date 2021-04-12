@@ -47,19 +47,27 @@ public class GameMenu : MonoBehaviour
  
  public void OnChangeVol()
  {
-     audioSource.volume = bgmSlider.value;
+     if (audioSource!=null)
+     {
+         audioSource.volume = bgmSlider.value;
+     }
+     
  }
 
  public void TriggerAudio()
  {
      auidoSourceTrigger = !auidoSourceTrigger;
-     if (auidoSourceTrigger)
+     if (audioSource!=null)
      {
-         audioSource.Play();
+         if (auidoSourceTrigger)
+          {
+              audioSource.Play();
+          }
+          else
+          {
+              audioSource.Pause();
+          }
      }
-     else
-     {
-         audioSource.Pause();
-     }
+     
  }
 }

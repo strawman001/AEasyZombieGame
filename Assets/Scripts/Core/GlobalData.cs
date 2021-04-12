@@ -1,16 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlobalData
+public class GlobalData : MonoBehaviour
 {
-    public int brain;
-    public int target;
 
-    public GlobalData(int brain, int target)
+    public static int level = 0;
+    public static int availiablePoints = 5;
+    public static int goldCoins = 800;
+    
+    private void Start()
     {
-        this.brain = brain;
-        this.target = target;
+        level = SceneManager.Instance.levelSceneIndex + 1;
     }
-
 }

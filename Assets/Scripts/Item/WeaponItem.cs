@@ -5,9 +5,9 @@ using UnityEngine;
 
 public abstract class WeaponItem : BaseItem
 {
-    class WeaponType
+    public class WeaponType
     {
-        public const string lefthand = "lefthand";
+        public const string lefthand = "leftHand";
         public const string rightHand = "rightHand";
     }
     

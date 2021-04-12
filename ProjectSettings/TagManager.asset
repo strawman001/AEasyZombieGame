@@ -10,6 +10,7 @@ TagManager:
   - Item.HealingPotion
   - Item.HealingPotionSmall
   - Item.LifeBond
+  - Item.HardenFist
   layers:
   - Default
   - TransparentFX

@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
             isBasicAttacking = true;
             playerInterface.GetAnimator().SetTrigger("Attack");
             audioSource1.Play();
-            MakeDamage(playerInterface.GetPhysicAttackValue());
+            MakeDamage(playerInterface.GetGeneralAttackValue());
             isBasicAttacking = false;
             StartCoroutine(AttackingCoolDown());
         }
@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour
             isSpecialAttacking = true;
             playerInterface.GetAnimator().SetTrigger("Attack");
             audioSource2.Play();
-            MakeDamage(playerInterface.GetPhysicAttackValue());
+            MakeDamage(playerInterface.GetGeneralAttackValue());
             isSpecialAttacking = false;
             StartCoroutine(AttackingCoolDown());
         }
@@ -139,7 +139,7 @@ public class PlayerController : MonoBehaviour
                 if (hit.CompareTag("Enemy"))
                 {
                     BioInterface targetInterface = hit.gameObject.GetComponent<BioInterface>();
-                    targetInterface.ReceiveDamage(damage);
+                    targetInterface.ReceiveGeneralDamage(damage);
                 }
                 
             }

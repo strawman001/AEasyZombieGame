@@ -77,6 +77,7 @@ public class EquipmentManager : MonoBehaviour
                 this.GetType().GetField(slot,BindingFlags.NonPublic|BindingFlags.Static).SetValue(instance,fullItemName);
                 equipmentItem.Equip();
                 EquipmentUI.Instance.ShowEquipmentAndWeapon();
+                AttributeUI.Instance.ShowProperty();
                 return true;
             }
             else
@@ -91,6 +92,7 @@ public class EquipmentManager : MonoBehaviour
                 accessorySlot1 = fullItemName;
                 equipmentItem.Equip();
                 EquipmentUI.Instance.ShowEquipmentAndWeapon();
+                AttributeUI.Instance.ShowProperty();
                 return true;
             }
             else if(accessorySlot2=="")
@@ -98,6 +100,7 @@ public class EquipmentManager : MonoBehaviour
                 accessorySlot2 = fullItemName;
                 equipmentItem.Equip();
                 EquipmentUI.Instance.ShowEquipmentAndWeapon();
+                AttributeUI.Instance.ShowProperty();
                 return true;
             }
             else if(accessorySlot3=="")
@@ -105,6 +108,7 @@ public class EquipmentManager : MonoBehaviour
                 accessorySlot3 = fullItemName;
                 equipmentItem.Equip();
                 EquipmentUI.Instance.ShowEquipmentAndWeapon();
+                AttributeUI.Instance.ShowProperty();
                 return true;
             }
             else
@@ -123,6 +127,7 @@ public class EquipmentManager : MonoBehaviour
                 leftHandSlot = fullItemName;
                 weaponItem.Equip();
                 EquipmentUI.Instance.ShowEquipmentAndWeapon();
+                AttributeUI.Instance.ShowProperty();
                 return true;
             }
             else
@@ -137,6 +142,7 @@ public class EquipmentManager : MonoBehaviour
                 rightHandSlot = fullItemName;
                 weaponItem.Equip();
                 EquipmentUI.Instance.ShowEquipmentAndWeapon();
+                AttributeUI.Instance.ShowProperty();
                 return true;
             }
             else
@@ -161,6 +167,7 @@ public class EquipmentManager : MonoBehaviour
             this.GetType().GetField(slotName,BindingFlags.NonPublic|BindingFlags.Static).SetValue(instance,"");
             EquipmentUI.Instance.ClearView();
             EquipmentUI.Instance.ShowEquipmentAndWeapon();
+            AttributeUI.Instance.ShowProperty();
         }
         else 
         {
@@ -169,6 +176,7 @@ public class EquipmentManager : MonoBehaviour
             this.GetType().GetField(slotName,BindingFlags.NonPublic|BindingFlags.Static).SetValue(instance,"");
             EquipmentUI.Instance.ClearView();
             EquipmentUI.Instance.ShowEquipmentAndWeapon();
+            AttributeUI.Instance.ShowProperty();
         }
     }
 }

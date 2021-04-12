@@ -38,47 +38,59 @@ public class PlayerInterface : BioInterface
         
     }
 
-    public int GetPhysicAttackValue()
+    public PlayerProperty GetPlayerProperty()
     {
-        return playerProperty.physicalAttack;
+        return playerProperty;
+    }
+    
+    public int GetGeneralAttackValue()
+    {
+        return playerProperty.GetGeneralAttackValue();
     }
 
     public int GetCurrentHealth()
     {
-        return playerProperty.currentHealth;
+        return playerProperty.CURRENT_HP;
     }
 
     public void ChangeCurrentHealth(int value)
     {
-        SetCurrentHealth(playerProperty.currentHealth+= value); 
+        SetCurrentHealth(playerProperty.CURRENT_HP+= value); 
     }
 
     public void SetCurrentHealth(int currentHealth)
     {
-        if (currentHealth > playerProperty.maxHealth)
+        if (currentHealth > playerProperty.MAX_HP)
         {
-            playerProperty.currentHealth = playerProperty.maxHealth;
+            playerProperty.CURRENT_HP = playerProperty.MAX_HP;
         }
         else if (currentHealth < 0)
         {
-            playerProperty.currentHealth = 0;
+            playerProperty.CURRENT_HP = 0;
             Die();
         }
     }
 
     public int GetMaxHealth()
     {
-        return playerProperty.maxHealth;
+        return playerProperty.MAX_HP;
     }
 
     public void SetMaxHealth(int maxHealth)
     {
-        playerProperty.maxHealth = maxHealth;
+        playerProperty.MAX_HP = maxHealth;
     }
 
-    public override void ReceiveDamage(int damage)
+    public override void ReceiveGeneralDamage(int damage)
     {
-        ChangeCurrentHealth(-damage);
+        Debug.Log("Init Damage:" + damage);
+        Debug.Log(playerProperty.GetGeneralDamage(damage));
+        ChangeCurrentHealth(-playerProperty.GetGeneralDamage(damage));
+    }
+
+    public override void ReceiveAbilityDamage(int damage)
+    {
+        ChangeCurrentHealth(-playerProperty.GetAbilityDamage(damage));
     }
 
     public override void Die()

@@ -17,6 +17,7 @@ public class InformationMenu : MonoBehaviour
         Time.timeScale = 0;
         BackpackUI.Instance.ShowConsumableItems();
         EquipmentUI.Instance.ShowEquipmentAndWeapon();
+        AttributeUI.Instance.ShowProperty();
         gameInformationImage.GetComponent<CanvasGroup>().alpha = 1;
         gameInformationImage.GetComponent<CanvasGroup>().interactable = true;
         gameInformationImage.GetComponent<CanvasGroup>().blocksRaycasts = true;

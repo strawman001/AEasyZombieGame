@@ -30,7 +30,7 @@ public class PeopleController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(attackDistence);
+        //Debug.Log(attackDistence);
         humanInterface = GetComponent<HumanInterface>();
         target = GameObject.Find("Player");
         //获取当前GameObject的AudioSource组件的AduioPlayer
@@ -72,7 +72,7 @@ public class PeopleController : MonoBehaviour
             GameObject tempTarget = target;
             humanInterface.SetFaceDirection(target.transform.position);
             humanInterface.animatorController.SetTrigger("Attack");
-            target.GetComponent<BioInterface>().ReceiveDamage(humanInterface.GetPhysicAttack());
+            target.GetComponent<BioInterface>().ReceiveGeneralDamage(humanInterface.GetGeneralAttackValue());
             StartCoroutine(AttackingCoolDown());
         }
     }

@@ -1,17 +1,38 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
+    private static SceneManager instance = null;
+    private SceneManager(){}
+    public static SceneManager Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public int levelSceneIndex;
 
     private static string[] menuScenesName = {"TransitionScene", "MainScene", "SelectScene"};
     
     public static int targetLevelIndex = 0;
     
-
+    public static Dictionary<int,LevelInfo> LevelInfoDir = new Dictionary<int, LevelInfo>()
+    {
+        {0,new LevelInfo(2)},
+        {1,new LevelInfo(2)}
+    };
+    
     //Switch to a transition scene to load game scene async
     public void SwitchLevelScene(int levelIndex)
     {

@@ -127,6 +127,8 @@
               <e p="EquipmentManager.cs" t="Include" />
               <e p="ItemManager.cs" t="Include" />
             </e>
+            <e p="LevelData.cs" t="Include" />
+            <e p="LevelInfo.cs" t="Include" />
             <e p="PlayerPropertyManager.cs" t="Include" />
             <e p="SceneController" t="Include">
               <e p="LoadingScene.cs" t="Include" />
@@ -169,6 +171,9 @@
               <e p="LifeBond.cs" t="Include" />
             </e>
             <e p="WeaponItem.cs" t="Include" />
+            <e p="WeaponItems" t="Include">
+              <e p="HardenFist.cs" t="Include" />
+            </e>
           </e>
           <e p="ObjectInterface" t="Include">
             <e p="BioInterface.cs" t="Include" />

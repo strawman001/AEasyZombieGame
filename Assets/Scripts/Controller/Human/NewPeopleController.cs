@@ -72,7 +72,7 @@ public class NewPeopleController : MonoBehaviour
             GameObject tempTarget = target;
             humanInterface.SetFaceDirection(target.transform.position);
             humanInterface.animatorController.SetTrigger("Attack");
-            target.GetComponent<BioInterface>().ReceiveDamage(humanInterface.GetPhysicAttack());
+            target.GetComponent<BioInterface>().ReceiveGeneralDamage(humanInterface.GetGeneralAttackValue());
             StartCoroutine(AttackingCoolDown());
         }
     }
