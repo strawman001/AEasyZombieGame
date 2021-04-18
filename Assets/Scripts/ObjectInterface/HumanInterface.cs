@@ -40,23 +40,23 @@ public class HumanInterface : BioInterface
 
     public int GetCurrentHealth()
     {
-        return bioProperty.currentHealth;
+        return bioProperty.CURRENT_HP;
     }
 
     public void ChangeCurrentHealth(int value)
     {
-        SetCurrentHealth(bioProperty.currentHealth+= value); 
+        SetCurrentHealth(bioProperty.CURRENT_HP+= value); 
     }
 
     public void SetCurrentHealth(int currentHealth)
     {
-        if (currentHealth > bioProperty.maxHealth)
+        if (currentHealth > bioProperty.MAX_HP)
         {
-            bioProperty.currentHealth = bioProperty.maxHealth;
+            bioProperty.CURRENT_HP = bioProperty.MAX_HP;
         }
         else if (currentHealth < 0)
         {
-            bioProperty.currentHealth = 0;
+            bioProperty.CURRENT_HP = 0;
             if (!isDead)
             {
                 isDead = true; 
@@ -68,22 +68,27 @@ public class HumanInterface : BioInterface
 
     public int GetMaxHealth()
     {
-        return bioProperty.maxHealth;
+        return bioProperty.MAX_HP;
     }
 
     public void SetMaxHealth(int maxHealth)
     {
-        bioProperty.maxHealth = maxHealth;
+        bioProperty.MAX_HP = maxHealth;
     }
 
-    public int GetPhysicAttack()
+    public int GetGeneralAttackValue()
     {
-        return bioProperty.physicalAttack;
+        return bioProperty.GetGeneralAttackValue();
     }
     
-    public override void ReceiveDamage(int damage)
+    public override void ReceiveGeneralDamage(int damage)
     {
-        ChangeCurrentHealth(-damage);
+        ChangeCurrentHealth(-bioProperty.GetGeneralDamage(damage));
+    }
+
+    public override void ReceiveAbilityDamage(int damage)
+    {
+        ChangeCurrentHealth(-bioProperty.GetAbilityDamage(damage));
     }
 
     public override void Die()
@@ -163,7 +168,7 @@ public class HumanInterface : BioInterface
         RaycastHit hit;
         int[] startAngle = {0, 30, 0, -30};
         int[] endAngle = {30, 60, -30, -60};
-        if (ReferenceEquals(target,null))
+        if (target == null)
         {
             //120 ViewAngle Every 30 degree, 2 rays
             // 8 rays to detect player

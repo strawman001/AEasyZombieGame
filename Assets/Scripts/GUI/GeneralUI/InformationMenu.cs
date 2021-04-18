@@ -15,11 +15,18 @@ public class InformationMenu : MonoBehaviour
 
     public void OnInformation(){
         Time.timeScale = 0;
-        gameInformationImage.SetActive(true);
+        BackpackUI.Instance.ShowConsumableItems();
+        EquipmentUI.Instance.ShowEquipmentAndWeapon();
+        AttributeUI.Instance.ShowProperty();
+        gameInformationImage.GetComponent<CanvasGroup>().alpha = 1;
+        gameInformationImage.GetComponent<CanvasGroup>().interactable = true;
+        gameInformationImage.GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
     public void CloseInformation(){
         Time.timeScale = 1f;
-        gameInformationImage.SetActive(false);
+        gameInformationImage.GetComponent<CanvasGroup>().alpha = 0;
+        gameInformationImage.GetComponent<CanvasGroup>().interactable = false;
+        gameInformationImage.GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
 
     void Update()

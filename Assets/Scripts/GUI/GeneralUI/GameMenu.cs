@@ -11,26 +11,30 @@ public class GameMenu : MonoBehaviour
  //   private AudioSource BGMSource;//MARKER BGM Source
  private string sceneName;
  private GameObject gameMenuImage;
- private SceneController sceneController;
+ private SceneManager sceneManager;
  private AudioSource audioSource;
  private bool auidoSourceTrigger = true;
  private Slider bgmSlider;
  private void Start()
  {
      gameMenuImage = GetComponent<UIComponentManager>().GetUIComponent("GameMenu");
-     sceneController = GetComponent<UIComponentManager>().GetUIComponent("SceneController").GetComponent<SceneController>();
+     sceneManager = GetComponent<UIComponentManager>().GetUIComponent("SceneManager").GetComponent<SceneManager>();
      audioSource = GetComponent<UIComponentManager>().GetUIComponent("Camera").GetComponent<AudioSource>();
-     bgmSlider = GetComponent<UIComponentManager>().GetUIComponent("GameMenu").transform.GetChild(2).GetComponent<Slider>();
+     bgmSlider = GetComponent<UIComponentManager>().GetUIComponent("GameMenu").transform.GetChild(3).GetComponent<Slider>();
  }
 
 
  public void OnPause(){
      Time.timeScale = 0;
-     gameMenuImage.SetActive(true);
+     gameMenuImage.GetComponent<CanvasGroup>().alpha = 1;
+     gameMenuImage.GetComponent<CanvasGroup>().interactable = true;
+     gameMenuImage.GetComponent<CanvasGroup>().blocksRaycasts = true;
  }
  public void OnResume(){
      Time.timeScale = 1f;
-     gameMenuImage.SetActive(false);
+     gameMenuImage.GetComponent<CanvasGroup>().alpha = 0;
+     gameMenuImage.GetComponent<CanvasGroup>().interactable = false;
+     gameMenuImage.GetComponent<CanvasGroup>().blocksRaycasts = false;
  }
  public void OnRestart() {
      UnityEngine.SceneManagement.SceneManager.LoadScene(0);
@@ -38,24 +42,32 @@ public class GameMenu : MonoBehaviour
  }
  public void QuitGame() {
      Time.timeScale = 1f;
-     sceneController.GoMainScene();
+     sceneManager.GoMainScene();
  }
  
  public void OnChangeVol()
  {
-     audioSource.volume = bgmSlider.value;
+     if (audioSource!=null)
+     {
+         audioSource.volume = bgmSlider.value;
+     }
+     
  }
 
  public void TriggerAudio()
  {
      auidoSourceTrigger = !auidoSourceTrigger;
-     if (auidoSourceTrigger)
+     if (audioSource!=null)
      {
-         audioSource.Play();
+         if (auidoSourceTrigger)
+          {
+              audioSource.Play();
+          }
+          else
+          {
+              audioSource.Pause();
+          }
      }
-     else
-     {
-         audioSource.Pause();
-     }
+     
  }
 }

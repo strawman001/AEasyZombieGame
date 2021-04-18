@@ -5,13 +5,13 @@ using UnityEngine;
 public class SceneMenu : MonoBehaviour
 {
     private GameObject sceneController;
-    private SceneController sceneControllerScript;
+    private SceneManager _sceneManagerScript;
     
     // Start is called before the first frame update
     void Start()
     {
-        sceneController = GetComponent<UIComponentManager>().GetUIComponent("SceneController");
-        sceneControllerScript = sceneController.GetComponent<SceneController>();
+        sceneController = GetComponent<UIComponentManager>().GetUIComponent("SceneManager");
+        _sceneManagerScript = sceneController.GetComponent<SceneManager>();
     }
 
     // Update is called once per frame
@@ -22,31 +22,31 @@ public class SceneMenu : MonoBehaviour
     
     public void SwitchLevelScene(int levelIndex)
     {
-       sceneControllerScript.SwitchLevelScene(levelIndex);
+       _sceneManagerScript.SwitchLevelScene(levelIndex);
     }
 
     public void ResetLevelScene()
     {
-        sceneControllerScript.ResetLevelScene();
+        _sceneManagerScript.ResetLevelScene();
     }
 
     public void GoNextLevelScene()
     {
-        sceneControllerScript.GoNextLevelScene();
+        _sceneManagerScript.GoNextLevelScene();
     }
 
     public void GoMainScene()
     {
-        sceneControllerScript.GoMainScene();
+        _sceneManagerScript.GoMainScene();
     }
     
     public void GoSelectScene()
     {
-        sceneControllerScript.GoSelectScene();
+        _sceneManagerScript.GoSelectScene();
     }
 
     public void ExitGame()
     {
-        sceneControllerScript.ExitGame();
+        _sceneManagerScript.ExitGame();
     }
 }

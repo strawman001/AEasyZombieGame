@@ -2,22 +2,42 @@
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    private static GameManager instance = null;
+    private GameManager(){}
+    public static GameManager Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
+
+    
     private static ConcurrentQueue<string> messageList = new ConcurrentQueue<string>();
     private bool isDealing = false;
     private LevelMenuController levelMenuController;
     private BrainBar brainBar;
-    
-    public static GlobalData globalData;
+
+    public LevelData levelData;
+    public static Assembly assembly = typeof(GameManager).Assembly;
     public GameObject uiController;
-    public int target;
+
+    private void Awake()
+    {
+        instance = this;
+        
+        assembly = typeof(GameManager).Assembly;
+    }
+
     private void Start()
     {
-        globalData = new GlobalData(0,target);
+        levelData = new LevelData(SceneManager.LevelInfoDir[SceneManager.Instance.levelSceneIndex]);
     }
 
     private void Update()
@@ -64,9 +84,9 @@ public class GameManager : MonoBehaviour
 
     public void BrainAddOne()
     {
-        globalData.brain += 1;
-        Debug.Log(globalData.brain);
-        if (globalData.brain == globalData.target)
+        levelData.AddOneBrain();
+        BrainBar.Instance.UpdateBrainNum();
+        if (levelData.currentBrainNum == levelData.targetBrainNum)
         {
             AddMessage("PassLevel");
         }

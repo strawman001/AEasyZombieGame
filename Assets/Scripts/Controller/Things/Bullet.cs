@@ -35,7 +35,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<BioInterface>().ReceiveDamage(damage);
+            other.gameObject.GetComponent<BioInterface>().ReceiveGeneralDamage(damage);
             Destroy(gameObject);
         }
         else

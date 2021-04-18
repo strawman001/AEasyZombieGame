@@ -74,6 +74,9 @@ public class PoiceController : MonoBehaviour
             Vector3 direction = (tempTarget.transform.position - nowPos).normalized;
             humanInterface.animatorController.SetTrigger("Fire");
             Bullet newBullet = Instantiate(bullet, new Vector3(nowPos.x,nowPos.y + 5,nowPos.z),Quaternion.LookRotation(direction));
+            int damage = humanInterface.GetGeneralAttackValue();
+            Debug.Log("Police Damage:"+damage);
+            newBullet.GetComponent<Bullet>().damage = damage;
             StartCoroutine(AttackingCoolDown());
         }
     }

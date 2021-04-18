@@ -1,30 +1,41 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BrainBar : MonoBehaviour
 {
-    private Text brainNum;
+    private static BrainBar instance = null;
+    private BrainBar(){}
+    public static BrainBar Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
 
+    private void Awake()
+    {
+        instance = this;
+    }
+
+
+    private Text brainNum;
     private int target;
     private int brain;
     // Start is called before the first frame update
     void Start()
     {
         brainNum = GetComponent<UIComponentManager>().GetUIComponent("BrainCollection").GetComponent<Text>();
+        UpdateBrainNum();
     }
 
     // Update is called once per frame
-    void Update()
+    public void UpdateBrainNum()
     {
-        brainNum.text = GameManager.globalData.brain + "=" + GameManager.globalData.target;
+        brainNum.text = GameManager.Instance.levelData.currentBrainNum + "=" + GameManager.Instance.levelData.targetBrainNum;
     }
-
-    public void SetBrainData(int target, int brain)
-    {
-        this.target = target;
-        this.brain = brain;
-        brainNum.text = brain + "=" + target;
-    }
+    
 }

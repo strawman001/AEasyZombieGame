@@ -26,6 +26,7 @@ public class HealthBarController : MonoBehaviour
     void Update()
     {
         int currentHealth = playerInterface.GetCurrentHealth();
+        healthBar.maxValue = playerInterface.GetMaxHealth();
         healthBar.value = currentHealth;
         fill.color = gradient.Evaluate((float)currentHealth/(float)healthBar.maxValue);
     }
