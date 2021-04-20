@@ -101,6 +101,7 @@
           <e p="Controller" t="Include">
             <e p="Human" t="Include">
               <e p="NewPeopleController.cs" t="Include" />
+              <e p="NewPoliceController.cs" t="Include" />
               <e p="PeopleController.cs" t="Include" />
               <e p="PoiceController.cs" t="Include" />
             </e>
@@ -115,6 +116,17 @@
             </e>
           </e>
           <e p="Core" t="Include">
+            <e p="BehaviorTree" t="Include">
+              <e p="ActionNode.cs" t="Include" />
+              <e p="BehaviorTree.cs" t="Include" />
+              <e p="ConditionNode.cs" t="Include" />
+              <e p="ControlNode.cs" t="Include" />
+              <e p="DecorationNode.cs" t="Include" />
+              <e p="Node.cs" t="Include" />
+              <e p="ParallelNode.cs" t="Include" />
+              <e p="SelectorNode.cs" t="Include" />
+              <e p="SequenceNode.cs" t="Include" />
+            </e>
             <e p="Camera" t="Include">
               <e p="CameraRotate.cs" t="Include" />
               <e p="FollowPlayer.cs" t="Include" />
