@@ -59,11 +59,16 @@ public class HumanInterface : BioInterface
             bioProperty.CURRENT_HP = 0;
             if (!isDead)
             {
-                isDead = true; 
+                isDead = true;
                 Die();
             }
            
         }
+    }
+
+    public bool isDid()
+    {
+        return isDead;
     }
 
     public int GetMaxHealth()
