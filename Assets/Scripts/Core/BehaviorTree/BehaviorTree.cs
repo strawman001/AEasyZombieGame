@@ -22,9 +22,11 @@ public class BehaviorTree : MonoBehaviour
 
     public static ActionNode MakeNoParamActionNode(BehaviorTree tree, String name,Action action)
     {
-        return new ActionNode(tree,name, (Dictionary<string, object> dictionary) => { action(); return true;},null);
-            
-            
+        return new ActionNode(tree, name, (Dictionary<string, object> dictionary) =>
+        {
+            action();
+            return true;
+        }, null);
     }
     
     public static ConditionNode MakeNoParamConditionNode(Func<bool> action)

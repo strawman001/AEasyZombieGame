@@ -98,6 +98,9 @@
           <e p="PumpkinheadAnimation.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="Boss" t="Include">
+            <e p="BossController.cs" t="Include" />
+          </e>
           <e p="Controller" t="Include">
             <e p="Human" t="Include">
               <e p="NewPeopleController.cs" t="Include" />
@@ -189,6 +192,7 @@
           </e>
           <e p="ObjectInterface" t="Include">
             <e p="BioInterface.cs" t="Include" />
+            <e p="DropItemsInterface.cs" t="Include" />
             <e p="HumanInterface.cs" t="Include" />
             <e p="PlayerInterface.cs" t="Include" />
           </e>

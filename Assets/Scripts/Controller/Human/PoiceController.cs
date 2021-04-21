@@ -150,7 +150,7 @@ public class PoiceController : MonoBehaviour
         return temp;
     }
 
-    //Behavior Tree!
+    //State machine!
     private void Tick()
     {
         if (!isRunning)
