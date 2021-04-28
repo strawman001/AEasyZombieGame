@@ -19,10 +19,10 @@ public class Timecountdown : MonoBehaviour
     void Start()
     {
         timerIsRunning = true;
-        
+
         animator = GetComponent<AvatarAnimationController>();
 
-        
+
     }
     // Update is called once per frame
     void Update()
