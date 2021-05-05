@@ -14,14 +14,15 @@ public class HumanInterface : BioInterface
     private NavMeshAgent agent;
     public Animator animatorController;
     public GameObject gameManager;
-
+    private DropItemsInterface dropItemsInterface;
+    
     private Vector3 targetPoint;
     private Vector3 facePoint;
     private bool isDead = false;
     void Awake()
     {
         bioProperty = GetComponent<BioProperty>();
-        
+        dropItemsInterface = GetComponent<DropItemsInterface>();
     }
 
     private void Start()
@@ -59,11 +60,16 @@ public class HumanInterface : BioInterface
             bioProperty.CURRENT_HP = 0;
             if (!isDead)
             {
-                isDead = true; 
+                isDead = true;
                 Die();
             }
            
         }
+    }
+
+    public bool isDid()
+    {
+        return isDead;
     }
 
     public int GetMaxHealth()
@@ -101,19 +107,11 @@ public class HumanInterface : BioInterface
     private IEnumerator Des()
     {
         yield return new WaitForSeconds(2); 
-        DropItems();
+        dropItemsInterface.DropItems(transform.position);
         Destroy(gameObject);
     }
 
-    public void DropItems()
-    {
-        foreach (GameObject item in gameManager.GetComponent<DropAssets>().DropOutItems(type))
-        {
-            Instantiate(item, transform.position, item.transform.rotation);
-        }
-        
-    }
-
+    
     public void Move()
     {
         if (targetPoint!=Vector3.zero)

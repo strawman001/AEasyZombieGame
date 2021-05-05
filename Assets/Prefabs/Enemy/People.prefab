@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3337813654364400026}
   - component: {fileID: 3337813654364400027}
   - component: {fileID: 3337813654364400024}
+  - component: {fileID: 7860999041811095874}
   - component: {fileID: 8457405269480082161}
   m_Layer: 0
   m_Name: People
@@ -148,6 +149,23 @@ MonoBehaviour:
   MANA: 0
   CURRENT_MANA: 0
   ABILITY_POWER: 0
+--- !u!114 &7860999041811095874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733909228074362490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0047afe91f4388946992f58e868b2563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropItemsList:
+  - {fileID: 4778142640000851455, guid: c894e310f99afad4c9d74c6a62b63f23, type: 3}
+  - {fileID: 8190514421618615568, guid: b08f3c257ca28c44d8a0c97dbdb9b232, type: 3}
+  dropItemNum: 3
+  dropItemsProbability: 0100000002000000
 --- !u!82 &8457405269480082161
 AudioSource:
   m_ObjectHideFlags: 0
