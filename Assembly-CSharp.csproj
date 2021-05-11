@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossMovementController.cs" />
     <Compile Include="Assets\Scripts\Item\ConsumableItems\HealingPotion.cs" />
     <Compile Include="Assets\Scripts\Property\Bio\Player\PlayerProperty.cs" />
     <Compile Include="Assets\Scripts\GUI\GeneralUI\SceneMenu.cs" />
@@ -176,7 +177,6 @@
     <Compile Include="Assets\Scripts\ObjectInterface\DropItemsInterface.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Scripts\ObjectInterface\HumanInterface.cs" />
-    <Compile Include="Assets\Scripts\Boss\BossMovementController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Sprite\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
