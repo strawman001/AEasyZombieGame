@@ -13,18 +13,8 @@ namespace Item
             description = "HardenFist: Strength+3";
             weaponType = WeaponType.lefthand;
         }
-    
-    
-        public override void CollectItem()
-        {
-        
-        }
-
-        public override void DropItem()
-        {
-        
-        }
-
+        public override void CollectItem(){}
+        public override void DropItem() {}
         public override void Equip()
         {
             PlayerProperty playerProperty = PlayerInterface.Instance.GetPlayerProperty();
@@ -32,7 +22,6 @@ namespace Item
             playerProperty.ATK = playerProperty.CalATK(playerProperty.STRENGTH);
             playerProperty.CRI_DAMAGE = playerProperty.CalCRI_DAMAGE(playerProperty.EXPLOSION, playerProperty.STRENGTH);
         }
-
         public override void Remove()
         {
             PlayerProperty playerProperty = PlayerInterface.Instance.GetPlayerProperty();

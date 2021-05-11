@@ -200,7 +200,7 @@ public class NewPoliceController : MonoBehaviour
 
     private bool IsDie()
     {
-        return humanInterface.isDid();
+        return humanInterface.isDie();
     }
 
     private void DieAction()

@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
     public void BrainAddOne()
     {
         levelData.AddOneBrain();
+        UserMessageManager.Instance.AddUserMessage("Get a new brain.");
         BrainBar.Instance.UpdateBrainNum();
         if (levelData.currentBrainNum == levelData.targetBrainNum)
         {
