@@ -23,6 +23,8 @@ public class BossMovementController : MonoBehaviour
             bossrigidbody = this.gameObject.GetComponent<Rigidbody>();
 
         }
+
+        Idle();
     }
     public void Idle()
     {
@@ -47,13 +49,13 @@ public class BossMovementController : MonoBehaviour
     public void Walk()
     {
         BossAnimator.SetInteger("Boss Control", 1);
-        transform.Translate(Vector3.forward * Time.deltaTime * 2.0f);
+        transform.Translate(Vector3.forward * Time.deltaTime * 5.0f);
     }
 
     public void Run()
     {
         BossAnimator.SetInteger("Boss Control", 2);
-        transform.Translate(Vector3.forward * Time.deltaTime * 10.0f);
+        transform.Translate(Vector3.forward * Time.deltaTime * 25.0f);
     }
 
     public void MeleeAttack()

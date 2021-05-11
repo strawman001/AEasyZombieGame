@@ -177,6 +177,7 @@
     <Compile Include="Assets\Scripts\ObjectInterface\DropItemsInterface.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Scripts\ObjectInterface\HumanInterface.cs" />
+    <Compile Include="Assets\Scripts\CutScene\DessertCutscenes\IntroCutScene_DessertScene.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Sprite\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

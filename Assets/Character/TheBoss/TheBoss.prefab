@@ -353,6 +353,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1217261930183221213}
+  - component: {fileID: 345061908306563577}
+  - component: {fileID: 872425913438821578}
   - component: {fileID: 5045361520189408679}
   - component: {fileID: 1688335545673988104}
   - component: {fileID: -264214382915637764}
@@ -372,7 +374,7 @@ Transform:
   m_GameObject: {fileID: 1994890031971239271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
   m_Children:
   - {fileID: 328231101005513885}
   - {fileID: 5966597400119746261}
@@ -385,6 +387,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &345061908306563577
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994890031971239271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.83
+  m_Height: 4.77
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.29, z: 0}
+--- !u!54 &872425913438821578
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994890031971239271}
+  serializedVersion: 2
+  m_Mass: 1000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
 --- !u!95 &5045361520189408679
 Animator:
   serializedVersion: 3
@@ -416,6 +448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc4766fda8d78f04dae5da470a46c5a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementController: {fileID: -264214382915637764}
 --- !u!114 &-264214382915637764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,6 +461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d771ed682c3384983a34ebadc5dbf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BossAnimator: {fileID: 5045361520189408679}
+  bossrigidbody: {fileID: 872425913438821578}
 --- !u!1 &2287765944591408222
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +513,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31bf94a71a52adb4f84ef40356426dbb, type: 2}
+  - {fileID: -3127342155241994426, guid: a01b131bccad956469f2c7bf4d6a98be, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -857,7 +892,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2852b271d0d088643a66c25efe4b5aa0, type: 2}
+  - {fileID: 2100000, guid: 97624b71c12bc624ba1e7148e6470055, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1255,7 +1290,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 05c3b35dce48bfb44a9ce93ae526df18, type: 2}
+  - {fileID: 2100000, guid: c55afdc4a8a3b4890b07cc7d176510bb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
