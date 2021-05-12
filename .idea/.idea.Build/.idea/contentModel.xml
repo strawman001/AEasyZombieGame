@@ -119,17 +119,6 @@
             </e>
           </e>
           <e p="Core" t="Include">
-            <e p="BehaviorTree" t="Include">
-              <e p="ActionNode.cs" t="Include" />
-              <e p="BehaviorTree.cs" t="Include" />
-              <e p="ConditionNode.cs" t="Include" />
-              <e p="ControlNode.cs" t="Include" />
-              <e p="DecorationNode.cs" t="Include" />
-              <e p="Node.cs" t="Include" />
-              <e p="ParallelNode.cs" t="Include" />
-              <e p="SelectorNode.cs" t="Include" />
-              <e p="SequenceNode.cs" t="Include" />
-            </e>
             <e p="Camera" t="Include">
               <e p="CameraRotate.cs" t="Include" />
               <e p="FollowPlayer.cs" t="Include" />
@@ -149,12 +138,30 @@
               <e p="LoadingScene.cs" t="Include" />
               <e p="SceneManager.cs" t="Include" />
             </e>
+            <e p="UserMessageManager" t="Include">
+              <e p="UserMessageManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="DataStructure" t="Include">
+            <e p="BehaviorTree" t="Include">
+              <e p="ActionNode.cs" t="Include" />
+              <e p="BehaviorTree.cs" t="Include" />
+              <e p="ConditionNode.cs" t="Include" />
+              <e p="ControlNode.cs" t="Include" />
+              <e p="DecorationNode.cs" t="Include" />
+              <e p="Node.cs" t="Include" />
+              <e p="ParallelNode.cs" t="Include" />
+              <e p="SelectorNode.cs" t="Include" />
+              <e p="SequenceNode.cs" t="Include" />
+            </e>
           </e>
           <e p="GUI" t="Include">
             <e p="GeneralUI" t="Include">
               <e p="AttackController.cs" t="Include" />
               <e p="BrainBar.cs" t="Include" />
               <e p="CameraController.cs" t="Include" />
+              <e p="CanvasUI.cs" t="Include" />
+              <e p="CreatureLifebarController.cs" t="Include" />
               <e p="GameMenu.cs" t="Include" />
               <e p="HealthBarController.cs" t="Include" />
               <e p="InformationMenu.cs" t="Include" />
@@ -164,6 +171,7 @@
               <e p="StoreMenu.cs" t="Include" />
               <e p="TaskMenu.cs" t="Include" />
               <e p="UIComponentManager.cs" t="Include" />
+              <e p="UserMessageUI.cs" t="Include" />
             </e>
             <e p="InformationMenu" t="Include">
               <e p="AttributeUI.cs" t="Include" />
