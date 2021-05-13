@@ -60,6 +60,7 @@ public class BackpackManager : MonoBehaviour
     public void AddItemToBackpack(string itemID, string fullItemName, int itemNum)
     {
         BaseItem item = (BaseItem) assembly.CreateInstance(fullItemName);
+        item.CollectItem();
         if (item is ConsumableItem)
         {
             bool isContain = false;
@@ -98,6 +99,7 @@ public class BackpackManager : MonoBehaviour
     public void AddItemToBackpack(string fullItemName, int itemNum)
     {
         BaseItem item = (BaseItem) assembly.CreateInstance(fullItemName);
+        item.CollectItem();
         if (item is ConsumableItem)
         {
             bool isContain = false;

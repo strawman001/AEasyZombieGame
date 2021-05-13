@@ -9,19 +9,12 @@ namespace Item
             itemName = "LifeBond";
             spritePath = "Sprite/Item/Fabric";
             description = "Life Bond: borrow life and remember to pay the debt. When equip HP+30, When remove HP-30";
-            equipmentType = EquipmentItem.EquipmentType.accessory;
+            equipmentType = EquipmentType.accessory;
 
         }
-        
-        public override void CollectItem()
-        {
-            
-        }
+        public override void CollectItem(){}
 
-        public override void DropItem()
-        {
-            
-        }
+        public override void DropItem(){}
 
         public override void Equip()
         {

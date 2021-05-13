@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public BossMovementController movementController;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            movementController.Walk();
+        }
+        else if (Input.GetKey(KeyCode.DownArrow))
+            {
+            movementController.Run();
+        }
+        else
+        {
+            movementController.Idle();
+        }
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            movementController.RotateLeft();
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            movementController.RotateRight(); 
+        }
     }
 }

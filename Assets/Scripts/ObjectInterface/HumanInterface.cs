@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro.Examples;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class HumanInterface : BioInterface
@@ -19,6 +20,10 @@ public class HumanInterface : BioInterface
     private Vector3 targetPoint;
     private Vector3 facePoint;
     private bool isDead = false;
+
+    private bool isCreatedLifebar = false;
+    private Slider slider; 
+        
     void Awake()
     {
         bioProperty = GetComponent<BioProperty>();
@@ -46,11 +51,17 @@ public class HumanInterface : BioInterface
 
     public void ChangeCurrentHealth(int value)
     {
-        SetCurrentHealth(bioProperty.CURRENT_HP+= value); 
+        SetCurrentHealth(bioProperty.CURRENT_HP+value); 
     }
 
     public void SetCurrentHealth(int currentHealth)
     {
+        if (!isCreatedLifebar)
+        {
+            CreateLifeSlider();
+        }
+        
+        
         if (currentHealth > bioProperty.MAX_HP)
         {
             bioProperty.CURRENT_HP = bioProperty.MAX_HP;
@@ -61,13 +72,23 @@ public class HumanInterface : BioInterface
             if (!isDead)
             {
                 isDead = true;
-                Die();
             }
-           
         }
+        else
+        {
+            bioProperty.CURRENT_HP = currentHealth;
+        }
+        
+        slider.value = bioProperty.CURRENT_HP;
+
+        if (isDead)
+        {
+            Die();
+        }
+
     }
 
-    public bool isDid()
+    public bool isDie()
     {
         return isDead;
     }
@@ -101,10 +122,10 @@ public class HumanInterface : BioInterface
     {
         GameManager.AddMessage("BrainAddOne");
         animatorController.SetTrigger("Dead");
-        StartCoroutine(Des());
+        StartCoroutine(DestoryMethod());
     }
 
-    private IEnumerator Des()
+    private IEnumerator DestoryMethod()
     {
         yield return new WaitForSeconds(2); 
         dropItemsInterface.DropItems(transform.position);
@@ -214,6 +235,18 @@ public class HumanInterface : BioInterface
         Debug.DrawRay(transform.position, transform.rotation * Quaternion.Euler(0,-12,0) * Vector3.forward * 40f,Color.green);
         Debug.DrawRay(transform.position, transform.rotation * Quaternion.Euler(0,-36,0) * Vector3.forward * 40f,Color.green);
     }
-    
+
+    private Slider CreateLifeSlider()
+    {
+        isCreatedLifebar = true;
+        GameObject lifeBar = Resources.Load("Prefab/UI/CreatureLifeBar") as GameObject;
+        GameObject ins = Instantiate(lifeBar, transform.position, lifeBar.transform.rotation);
+        ins.transform.parent = transform;
+        ins.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(0,6.5f,0);
+        slider = ins.GetComponent<CreatureLifebarController>().slider;
+        slider.maxValue = bioProperty.MAX_HP;
+        //slider.value = bioProperty.CURRENT_HP;
+        return slider;
+    }
     
 }
