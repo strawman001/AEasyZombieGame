@@ -29,8 +29,10 @@
           </e>
         </e>
         <e p="Character" t="Include">
-          <e p="AvatarAnimationController.cs" t="Include" />
-          <e p="DemoControlScript.cs" t="Include" />
+          <e p="Characters Scripts" t="Include">
+            <e p="AvatarAnimationController.cs" t="Include" />
+            <e p="DemoControlScript.cs" t="Include" />
+          </e>
         </e>
         <e p="Display_DemoScene" t="Include">
           <e p="Effects" t="Include">
@@ -97,9 +99,18 @@
         <e p="OldFolderCharacters" t="Include">
           <e p="PumpkinheadAnimation.cs" t="Include" />
         </e>
+        <e p="Scenes" t="Include">
+          <e p="GameScene" t="Include">
+            <e p="GraveGameScene" t="Include">
+              <e p="CoinCollect.cs" t="Include" />
+              <e p="CoinSummation.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Boss" t="Include">
             <e p="BossController.cs" t="Include" />
+            <e p="BossMovementController.cs" t="Include" />
           </e>
           <e p="Controller" t="Include">
             <e p="Human" t="Include">
@@ -152,6 +163,11 @@
             <e p="Timecountdown.cs" t="Include" />
             <e p="UserMessageManager" t="Include">
               <e p="UserMessageManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CutScene" t="Include">
+            <e p="DessertCutscenes" t="Include">
+              <e p="IntroCutScene_DessertScene.cs" t="Include" />
             </e>
           </e>
           <e p="DataStructure" t="Include">
@@ -358,6 +374,11 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="UIT32020" t="Include">
+          <e p="Game UI" t="Include">
+            <e p="ShopFunction.cs" t="Include" />
           </e>
         </e>
       </e>
