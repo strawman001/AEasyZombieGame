@@ -17,7 +17,7 @@ public class HealthBarController : MonoBehaviour
         UIComponentManager uiComponentManager = GetComponent<UIComponentManager>();
         healthBar = uiComponentManager.GetUIComponent("HealthBar").GetComponent<Slider>();
         fill = healthBar.transform.GetChild(0).gameObject.GetComponent<Image>();
-        playerInterface = uiComponentManager.GetUIComponent("Player").GetComponent<PlayerInterface>();
+        playerInterface = PlayerInterface.Instance;
         healthBar.maxValue = playerInterface.GetMaxHealth();
         fill.color = Color.green;
     }

@@ -9,7 +9,7 @@ public class JoystickTransfer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerController = GetComponent<UIComponentManager>().GetUIComponent("Player").GetComponent<PlayerController>();
+        playerController = PlayerController.Instance;
         joystick = GetComponent<UIComponentManager>().GetUIComponent("Fixed Joystick").GetComponent<Joystick>();
         
     }

@@ -54,7 +54,7 @@ public class BackpackUI : MonoBehaviour,IPointerClickHandler
 
     private void Start()
     {
-        itemIcon = Resources.Load("Prefab/ItemIcon") as GameObject;
+        itemIcon = Resources.Load("Prefab/UI/ItemIcon") as GameObject;
         assembly = GameManager.assembly;
 
     }

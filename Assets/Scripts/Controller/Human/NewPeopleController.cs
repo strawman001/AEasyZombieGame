@@ -6,7 +6,7 @@ public class NewPeopleController : MonoBehaviour
 {
     public Vector3[] patrolPoints;
 
-    private float attackDistence = 1.5f;
+    public float attackDistence = 1.5f;
     public float viewDistence = 4.0f;
 
     private AudioClip audioClip;

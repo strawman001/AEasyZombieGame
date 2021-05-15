@@ -14,7 +14,7 @@ public class HumanInterface : BioInterface
     private BioProperty bioProperty;
     private NavMeshAgent agent;
     public Animator animatorController;
-    public GameObject gameManager;
+    //public GameObject gameManager;
     private DropItemsInterface dropItemsInterface;
     
     private Vector3 targetPoint;
@@ -120,8 +120,9 @@ public class HumanInterface : BioInterface
 
     public override void Die()
     {
-        GameManager.AddMessage("BrainAddOne");
+        //GameManager.AddMessage("BrainAddOne");
         animatorController.SetTrigger("Dead");
+        taskObserver.NotifyAllListener(ObjectEventType.EVENT_DIE);
         StartCoroutine(DestoryMethod());
     }
 

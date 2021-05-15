@@ -15,6 +15,7 @@ public class CameraRotate : MonoBehaviour
     {
         focusPoint = transform.parent.transform.gameObject;
         playerController = focusPoint.GetComponent<FollowPlayer>().player.GetComponent<PlayerController>();
+        
     }
 
     // Update is called once per frame
