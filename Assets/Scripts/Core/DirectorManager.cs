@@ -30,6 +30,10 @@ public class DirectorManager : MonoBehaviour
                 mainSceneTask = new MainTaskGraveScene();
                 mainSceneTask.InitializeTask();
                 break;
+            case 1:
+                mainSceneTask = new MainTaskCityScene();
+                mainSceneTask.InitializeTask();
+                break;
         }
     }
 }

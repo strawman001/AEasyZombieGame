@@ -256,6 +256,7 @@
             <e p="BaseTask.cs" t="Include" />
             <e p="BaseTaskNode.cs" t="Include" />
             <e p="MainTask" t="Include">
+              <e p="MainTaskCityScene.cs" t="Include" />
               <e p="MainTaskGraveScene.cs" t="Include" />
             </e>
             <e p="SideTask" t="Include">

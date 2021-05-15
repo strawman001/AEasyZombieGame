@@ -203,6 +203,7 @@
      <Compile Include="Assets\Scripts\ObjectInterface\DropItemsInterface.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
      <Compile Include="Assets\Scripts\ObjectInterface\HumanInterface.cs" />
+     <Compile Include="Assets\Scripts\Task\MainTask\MainTaskCityScene.cs" />
      <None Include="Assets\Sprite\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
