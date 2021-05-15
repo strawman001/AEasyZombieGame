@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 1417878132643378759}
   - component: {fileID: 1417878132643378761}
   - component: {fileID: 1417878132643378763}
-  - component: {fileID: 1417878132643378764}
   - component: {fileID: 704813818760420755}
   - component: {fileID: -3524484226283227653}
+  - component: {fileID: 1417878132616963218}
   m_Layer: 0
   m_Name: Police
   m_TagString: Enemy
@@ -107,7 +107,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: Police
   animatorController: {fileID: 0}
-  gameManager: {fileID: 0}
 --- !u!114 &1417878132643378763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,24 +131,6 @@ MonoBehaviour:
   MANA: 0
   CURRENT_MANA: 0
   ABILITY_POWER: 0
---- !u!114 &1417878132643378764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6957144088479547223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 978b0764704220048bff4732545467fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  patrolPoints:
-  - {x: 140, y: 13, z: 92}
-  - {x: 65, y: 13, z: 96}
-  bullet: {fileID: -6581668730513863989, guid: 04d3190479f43da4eb592b48efca99fc, type: 3}
-  attackDistence: 20
-  viewDistence: 40
 --- !u!82 &704813818760420755
 AudioSource:
   m_ObjectHideFlags: 0
@@ -263,6 +244,22 @@ MonoBehaviour:
   - {fileID: 8190514421618615568, guid: b08f3c257ca28c44d8a0c97dbdb9b232, type: 3}
   dropItemNum: 3
   dropItemsProbability: 0300000001000000
+--- !u!114 &1417878132616963218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6957144088479547223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65e6ab482c9f36449e8892375bd0931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints: []
+  bullet: {fileID: -6581668730513863989, guid: 04d3190479f43da4eb592b48efca99fc, type: 3}
+  attackDistence: 0
+  viewDistence: 0
 --- !u!1001 &1211264061733795056
 PrefabInstance:
   m_ObjectHideFlags: 0

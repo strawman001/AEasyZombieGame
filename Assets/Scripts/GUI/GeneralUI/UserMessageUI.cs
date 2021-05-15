@@ -78,13 +78,13 @@ public class UserMessageUI : MonoBehaviour
     public void ShowUserMessagePanel()
     {
         isMoving = true;
-        StartCoroutine(MovePanel(new Vector3(200, 0, 0) * 0.5f,20));
+        StartCoroutine(MovePanel(new Vector3(0, -200, 0) * 0.5f,20));
     }
 
     public void HideUserMessagePanel()
     {
         isMoving = true;
-        StartCoroutine(MovePanel(new Vector3(-200, 0, 0) * 0.5f,20));
+        StartCoroutine(MovePanel(new Vector3(0, 200, 0) * 0.5f,20));
     }
 
     IEnumerator MovePanel(Vector3 speed, int times)

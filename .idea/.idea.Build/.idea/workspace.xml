@@ -23,49 +23,54 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OldFolderCharacters/Animations/AnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OldFolderCharacters/Animations/AnimationController.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/CanvasUI .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/CanvasUI .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Item/HealingPotion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Item/HealingPotion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/MainBoss.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/MainBoss.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/People.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/People.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Police.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Police.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Things.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Things/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Things/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/ItemIcon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/ItemIcon.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GraveGameScene/GraveGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GraveGameScene/GraveGameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPoliceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPoliceController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ActionNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ActionNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/BehaviorTree.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/BehaviorTree.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ConditionNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ConditionNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ControlNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ControlNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/DecorationNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/DecorationNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/Node.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/Node.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ParallelNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ParallelNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/SelectorNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/SelectorNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/SequenceNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/SequenceNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPeopleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPeopleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPoliceController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPoliceController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PeopleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PeopleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PoiceController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PoiceController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Camera/CameraRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Camera/CameraRotate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/EquipmentItems/LifeBond.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/EquipmentItems/LifeBond.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/WeaponItems/HardenFist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/WeaponItems/HardenFist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/InformationMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/InformationMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/JoystickTransfer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/JoystickTransfer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/TaskMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/TaskMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/InformationMenu/BackpackUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/InformationMenu/BackpackUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/HumanInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/HumanInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timecountdown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timecountdown.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Style.catalog" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Style.catalog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,29 +84,44 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/c7/aa333865/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Property/Bio/BioProperty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/65/03a6f5b0/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectInterface/ObjectEventType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Runtime/Textures/TextureXR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogEndNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/74/b128d6d4/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/WeaponItems/HardenFist.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/CreatureLifebarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPCDialog/BaseDialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/DialogPanel/TalkButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GlobalData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/BaseItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DropAssets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/c4/0e98fe12/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/CanvasUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Components/SphereTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Task/BaseTaskNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/13/58e10f67/Buffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/Human/PoliceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/ItemManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectInterface/DialogInterface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/aa/f4855ae5/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/MessageType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/TaskObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/81/7d57688e/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/DialogPanel/DialogUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogGeneralNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/Item/DropItemController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/WeaponItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Task/BaseTask.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItems/HealingPotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/LevelInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/EquipmentItems/LifeBond.cs" root0="FORCE_HIGHLIGHTING" />
@@ -113,57 +133,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item/BaseItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackUI/BackpackUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItems/HealingPotion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ConsumableItems/HealingPotionSmall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/UI/BackpackUI.cs" />
-        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Runtime/Textures/TextureXR.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UIComponentManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" />
-        <option value="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Item/DropItemController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item/EquipmentItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/InformationMenu/BackpackUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/InformationMenu/EquipmentUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Property/Bio/Human/PoiceProperty.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Property/Bio/BioProperty.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PeopleController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item/WeaponItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/GameMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/PlayerInterface.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/LevelInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/SceneController/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/BrainBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GlobalData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Property/Bio/Player/PlayerProperty.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/InformationMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/EquipmentManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerPropertyManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/InformationMenu/AttributeUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/SelectorNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/SequenceNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ParallelNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/Node.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/DecorationNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ControlNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ConditionNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/ActionNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPoliceController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BehaviorTree/BehaviorTree.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PoiceController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/DropItemsInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/EquipmentItems/LifeBond.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/WeaponItems/HardenFist.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/UserMessageManager/UserMessageManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/CanvasUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/CreatureLifebarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PeopleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPeopleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PoliceController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/XPoiceController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Camera/CameraRotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/IDispatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/ObjectEventType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/MessageType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/TaskListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/HumanInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/TaskObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/InformationMenu/BackpackUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskDescription.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskNodePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/TaskMessage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Task/BaseTaskNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DirectorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/JoystickTransfer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/TaskController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogEndNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCDialog/BaseDialog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogActionNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogGeneralNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogSelectNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Task/BaseTask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/DialogPanel/TalkButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/DialogInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Task/MainTask/MainTaskGravityScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Task/SideTask/SideTaskGraveScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Components/SphereTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCDialog/GraveKeeperDialog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Task/MainTask/MainTaskGraveScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogTree.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/SceneMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/DialogPanel/DialogUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskItem.cs" />
       </list>
     </option>
   </component>
@@ -243,6 +263,10 @@
       <workItem from="1619072043209" duration="1036000" />
       <workItem from="1620114898640" duration="9995000" />
       <workItem from="1620198694013" duration="594000" />
+      <workItem from="1620810795347" duration="7674000" />
+      <workItem from="1620885408237" duration="27990000" />
+      <workItem from="1620971429989" duration="28494000" />
+      <workItem from="1621056746677" duration="7811000" />
     </task>
     <servers />
   </component>
@@ -335,10 +359,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="216" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1617895380550" />
-    <state x="586" y="128" key="RiderGenerateDialog" timestamp="1618135694135">
+    <state x="586" y="128" key="RiderGenerateDialog" timestamp="1620897304863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="128" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1618135694135" />
+    <state x="586" y="128" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1620897304863" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1617864497141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -347,10 +371,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1618214322095" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611478248473">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611478248473" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1617876741574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

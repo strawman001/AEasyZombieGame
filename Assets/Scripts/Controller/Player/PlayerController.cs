@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
         audioSource1 = transform.GetComponents<AudioSource>()[0];
         audioSource2 = transform.GetComponents<AudioSource>()[1];
         controller.detectCollisions = false;
+        cameraDirectionY = Camera.main.transform.eulerAngles.y;
     }
 
     private void Update()

@@ -33,9 +33,7 @@ public class PeopleController : MonoBehaviour
         //Debug.Log(attackDistence);
         humanInterface = GetComponent<HumanInterface>();
         target = GameObject.Find("Player");
-        //获取当前GameObject的AudioSource组件的AduioPlayer
         audioClip = gameObject.GetComponent<AudioSource>().clip;
-        //获取当前GameObject的AudioSource组件
         audioSource = this.gameObject.GetComponent<AudioSource>();
     }
 

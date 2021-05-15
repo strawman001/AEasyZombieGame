@@ -72,25 +72,27 @@ public class GameManager : MonoBehaviour
     
     public void GameOver()
     {
+        Time.timeScale = 0f;
         levelMenuController = uiController.GetComponent<LevelMenuController>();
         levelMenuController.GameOver();
     }
 
     public void PassLevel()
     {
+        Time.timeScale = 0f;
         levelMenuController = uiController.GetComponent<LevelMenuController>();
         levelMenuController.LevelPass();
     }
 
     public void BrainAddOne()
     {
-        levelData.AddOneBrain();
-        UserMessageManager.Instance.AddUserMessage("Get a new brain.");
-        BrainBar.Instance.UpdateBrainNum();
-        if (levelData.currentBrainNum == levelData.targetBrainNum)
-        {
-            AddMessage("PassLevel");
-        }
+        // levelData.AddOneBrain();
+        // UserMessageManager.Instance.AddUserMessage("Get a new brain.");
+        // BrainBar.Instance.UpdateBrainNum();
+        // if (levelData.currentBrainNum == levelData.targetBrainNum)
+        // {
+        //     AddMessage("PassLevel");
+        // }
     }
 
     public static void AddMessage(String message)

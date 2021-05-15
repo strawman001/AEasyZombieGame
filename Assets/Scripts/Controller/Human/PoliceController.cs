@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewPoliceController : MonoBehaviour
+public class PoliceController : MonoBehaviour
 {
     public Vector3[] patrolPoints;
     public Bullet bullet;

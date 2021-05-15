@@ -30,16 +30,16 @@ public class BackpackManager : MonoBehaviour
     }
 
     private static Dictionary<string, int> consumableItemDictionary = new Dictionary<string, int>();
-    private static List<string> equipmentItemList = new List<string>(){"Item.LifeBond"};
-    private static List<string> weaponItemList = new List<string>(){"Item.HardenFist"};
+    private static List<string> equipmentItemList = new List<string>();
+    private static List<string> weaponItemList = new List<string>();
 
     private Assembly assembly;
 
     private void Start()
     {
         assembly = GameManager.assembly;
-        equipmentItemList.Add("Item.LifeBond");
-        weaponItemList.Add("Item.HardenFist");
+        /*equipmentItemList.Add("Item.LifeBond");
+        weaponItemList.Add("Item.HardenFist");*/
     }
 
     public Dictionary<string, int> GetConsumableItemDictionary()
@@ -118,6 +118,7 @@ public class BackpackManager : MonoBehaviour
                 consumableItemDictionary.Add(fullItemName,itemNum);
             }
             BackpackUI.Instance.ShowConsumableItems();
+            
         }
         else if (item is EquipmentItem)
         {

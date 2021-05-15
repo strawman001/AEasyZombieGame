@@ -22,31 +22,37 @@ public class SceneMenu : MonoBehaviour
     
     public void SwitchLevelScene(int levelIndex)
     {
+        Time.timeScale = 1f;
        _sceneManagerScript.SwitchLevelScene(levelIndex);
     }
 
     public void ResetLevelScene()
     {
+        Time.timeScale = 1f;
         _sceneManagerScript.ResetLevelScene();
     }
 
     public void GoNextLevelScene()
     {
+        Time.timeScale = 1f;
         _sceneManagerScript.GoNextLevelScene();
     }
 
     public void GoMainScene()
     {
+        Time.timeScale = 1f;
         _sceneManagerScript.GoMainScene();
     }
     
     public void GoSelectScene()
     {
+        Time.timeScale = 1f;
         _sceneManagerScript.GoSelectScene();
     }
 
     public void ExitGame()
     {
+        Time.timeScale = 1f;
         _sceneManagerScript.ExitGame();
     }
 }
