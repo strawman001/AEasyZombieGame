@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        playerSkillHolder = new PlayerSkillHolder();
     }
 
 
@@ -30,7 +31,8 @@ public class PlayerController : MonoBehaviour
     private SphereCollider bound;
     private AudioSource audioSource1;
     private AudioSource audioSource2;
-    
+    private PlayerSkillHolder playerSkillHolder;
+
     private float joyStickHorizontalValue = 0f;
     private float joyStickVectorialValue = 0f;
     private float cameraDirectionY = 0f;
@@ -38,7 +40,8 @@ public class PlayerController : MonoBehaviour
     private bool isBasicAttacking = false;
     private bool isSpecialAttacking = false;
     private bool isAttackingCoolDown = false;
-    
+    private bool dealtDamage = false;
+
     public float speed = 3.0f;
     private void Start()
     {
@@ -162,5 +165,55 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         isAttackingCoolDown = false;
+    }
+
+    public void LifeSteal(int damage)
+    {
+        //This will be implemented correctly when a skill tree
+        bool unlocked = playerSkillHolder.CheckForUnlock(PlayerSkillHolder.Skill.LifeSteal);
+
+        unlocked = true;
+
+        if (unlocked == false)
+        {
+            Debug.Log("not unlocked");
+        }
+        else
+        {
+            Debug.Log("unlocked lifesteal");
+        }
+        int percentage = 0;
+        int rand = UnityEngine.Random.Range(1, 10);
+
+
+        if (unlocked == true)
+        {
+            if (dealtDamage == true)
+            {
+                Debug.Log("LifeSteal");
+
+                //10% Life Steal
+                percentage = (playerInterface.GetGeneralAttackValue() / 10);
+
+                //50% chance to enable double health
+                if (rand <= 5 && unlocked == true)
+                {
+                    //Adding Health 2 times the amount normal (through skill upgrade)
+                    playerInterface.ChangeCurrentHealth(percentage * 2);
+                    Debug.Log("Double Health Gained: " + percentage * 2);
+                }
+                else
+                {
+                    //Adding Health
+                    playerInterface.ChangeCurrentHealth(percentage);
+                    Debug.Log("health Gained: " + percentage);
+                }
+
+                Debug.Log("Total Health: " + playerInterface.GetCurrentHealth());
+
+                dealtDamage = false;
+
+            }
+        }
     }
 }
