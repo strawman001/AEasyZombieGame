@@ -40,9 +40,29 @@ public class PlayerController : MonoBehaviour
     private bool isBasicAttacking = false;
     private bool isSpecialAttacking = false;
     private bool isAttackingCoolDown = false;
+    private bool isBiteavailable = true;
+    private bool isDashavailable = true;
     private bool dealtDamage = false;
 
+    public bool MissingHit = true;
     public float speed = 3.0f;
+
+    private Vector3 _dir;
+
+
+    public Vector3 dir   // property
+    {
+        get { return _dir; }   // get method
+        set { _dir = value; }  // set method
+    }
+
+    public float dashSpeed = 200f;
+    public float dashTime = 0.25f;
+
+    ///PARTICLES
+    [SerializeField] private ParticleSystem Dashparticle;
+    [SerializeField] private ParticleSystem Bleedparticle;
+
     private void Start()
     {
         playerInterface = GetComponent<PlayerInterface>();
@@ -67,7 +87,7 @@ public class PlayerController : MonoBehaviour
         float vertical = joyStickVectorialValue * speed + Input.GetAxis("Vertical") * speed;
         
         //Get player Direction
-        Vector3 dir = (Quaternion.Euler(0,cameraDirectionY,0) * new Vector3(horizontal, 0f, vertical)).normalized ;
+        dir = (Quaternion.Euler(0,cameraDirectionY,0) * new Vector3(horizontal, 0f, vertical)).normalized ;
 
         //If player isn't moving then the direction won't change
         if (dir != Vector3.zero)
@@ -80,11 +100,27 @@ public class PlayerController : MonoBehaviour
         {
             playerInterface.GetAnimator().SetBool("Run",false);
         }
-            
-        
+
+        //Dash
+        if (Input.GetKeyDown(KeyCode.E) && isDashavailable)
+        {
+            playDashParticle();
+            StartCoroutine(Dash());
+            playerInterface.GetAnimator().SetBool("Run", true);
+            Debug.Log("DASH");
+        }
+
+        //Fatal Bite
+        if (Input.GetKeyDown(KeyCode.Q) && isBiteavailable)
+        {
+            FatalBite();
+        }
+
+
+
         //Move the player
-        
-        
+
+
         // Play animation
         /*
         if (movement != Vector3.zero)
@@ -107,7 +143,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Basic Attack");
             isAttackingCoolDown = true;
             isBasicAttacking = true;
-            playerInterface.GetAnimator().SetTrigger("Attack");
+            //playerInterface.GetAnimator().SetTrigger("Attack");
             audioSource1.Play();
             MakeDamage(playerInterface.GetGeneralAttackValue());
             isBasicAttacking = false;
@@ -123,7 +159,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Special Attack");
             isAttackingCoolDown = true;
             isSpecialAttacking = true;
-            playerInterface.GetAnimator().SetTrigger("Attack");
+            //playerInterface.GetAnimator().SetTrigger("Attack");
             audioSource2.Play();
             MakeDamage(playerInterface.GetGeneralAttackValue());
             isSpecialAttacking = false;
@@ -142,10 +178,16 @@ public class PlayerController : MonoBehaviour
             {
                 if (hit.CompareTag("Enemy"))
                 {
+                    MissingHit = false;
+                    playerInterface.GetAnimator().SetTrigger("Attack");
                     BioInterface targetInterface = hit.gameObject.GetComponent<BioInterface>();
                     targetInterface.ReceiveGeneralDamage(damage);
                 }
-                
+                else
+                {
+                    playerInterface.GetAnimator().SetTrigger("Attack");
+                }
+
             }
         }
     }
@@ -216,4 +258,46 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    //SKILLS ACTIVATE
+    private IEnumerator Dash()
+    {
+        float StartTime = Time.time;
+        while (Time.time < StartTime + dashTime)
+        {
+
+            controller.Move(dir * dashSpeed * Time.deltaTime);
+
+            isDashavailable = false;
+            StartCoroutine(dashCooldown());
+            yield return null;
+        }
+
+    }
+
+    private void FatalBite()
+    {
+        playerInterface.GetAnimator().SetTrigger("Bite");
+    }
+
+    //SKILLS COOLDOWN
+    private IEnumerator dashCooldown()
+    {
+        yield return new WaitForSeconds(5);
+        isDashavailable = true;
+
+
+    }
+
+    //SKILLS PARTICLES
+    private void playDashParticle()
+    {
+        Dashparticle.Play();
+    }
+
+    private void playBleedParticle()
+    {
+        Bleedparticle.Play();
+    }
+
 }
