@@ -11,6 +11,7 @@ TagManager:
   - Item.HealingPotionSmall
   - Item.LifeBond
   - Item.HardenFist
+  - Coin
   layers:
   - Default
   - TransparentFX
