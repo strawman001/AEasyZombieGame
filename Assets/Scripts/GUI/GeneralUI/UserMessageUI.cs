@@ -27,13 +27,15 @@ public class UserMessageUI : MonoBehaviour
     private Queue messageList = new Queue();
 
     private RectTransform rectTransform;
+    private CanvasGroup canvasGroup;
 
     public Text userMessageLabel;
 
     private void Start()
     {
         rectTransform = GetComponent<RectTransform>();
-        
+        canvasGroup = GetComponent<CanvasGroup>();
+
     }
 
     private void Update()
@@ -78,13 +80,19 @@ public class UserMessageUI : MonoBehaviour
     public void ShowUserMessagePanel()
     {
         isMoving = true;
-        StartCoroutine(MovePanel(new Vector3(0, -200, 0) * 0.5f,20));
+        canvasGroup.alpha = 1;
+        canvasGroup.interactable = true;
+        canvasGroup.blocksRaycasts = true;
+        //StartCoroutine(MovePanel(new Vector3(0, -200, 0) * 0.5f,20));
     }
 
     public void HideUserMessagePanel()
     {
         isMoving = true;
-        StartCoroutine(MovePanel(new Vector3(0, 200, 0) * 0.5f,20));
+        canvasGroup.alpha = 0;
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
+        //StartCoroutine(MovePanel(new Vector3(0, 200, 0) * 0.5f,20));
     }
 
     IEnumerator MovePanel(Vector3 speed, int times)

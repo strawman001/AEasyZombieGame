@@ -33,6 +33,9 @@
             <e p="AvatarAnimationController.cs" t="Include" />
             <e p="DemoControlScript.cs" t="Include" />
           </e>
+          <e p="OldFolderCharacters" t="Include">
+            <e p="PumpkinheadAnimation.cs" t="Include" />
+          </e>
         </e>
         <e p="Display_DemoScene" t="Include">
           <e p="Effects" t="Include">
@@ -96,8 +99,10 @@
             </e>
           </e>
         </e>
-        <e p="OldFolderCharacters" t="Include">
-          <e p="PumpkinheadAnimation.cs" t="Include" />
+        <e p="mngo-update-2021-t1" t="Include">
+          <e p="Script" t="Include">
+            <e p="SpawnningEffect.cs" t="Include" />
+          </e>
         </e>
         <e p="Scenes" t="Include">
           <e p="GameScene" t="Include">
@@ -267,6 +272,10 @@
                 <e p="PlayerProperty.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="SkillSystem" t="Include">
+            <e p="PlayerSkillHolder.cs" t="Include" />
+            <e p="SkillTree.cs" t="Include" />
           </e>
           <e p="Task" t="Include">
             <e p="BaseTask.cs" t="Include" />

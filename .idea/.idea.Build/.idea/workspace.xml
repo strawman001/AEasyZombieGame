@@ -21,11 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="091b75d9-3bbf-47c0-b693-33f7d786ded4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/ToonyTinyPeople/TT_demo/prefabs/TT_demo_zombie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/ToonyTinyPeople/TT_demo/prefabs/TT_demo_zombie.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/CityGameScene/CityGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/CityGameScene/CityGameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Build/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Build/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Core/CanvasUI .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Core/CanvasUI .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/DessertGameScene/DessertGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/DessertGameScene/DessertGameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GraveGameScene/GraveGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GraveGameScene/GraveGameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Camera/CameraRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Camera/CameraRotate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +103,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/NewPeopleController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/PoliceController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Human/XPoiceController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Camera/CameraRotate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/IDispatcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface/BioInterface.cs" />
@@ -118,7 +121,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/HealthBarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/TaskSystem/TaskController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataStructure/DialogTree/DialogEndNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/ItemManager/BackpackManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPCDialog/BaseDialog.cs" />
@@ -141,6 +143,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GUI/TaskMenu/TaskItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Task/MainTask/MainTaskCityScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/DirectorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Camera/CameraRotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GUI/GeneralUI/UserMessageUI.cs" />
       </list>
     </option>
   </component>
@@ -225,6 +229,7 @@
       <workItem from="1620971429989" duration="28494000" />
       <workItem from="1621056746677" duration="9154000" />
       <workItem from="1621071227596" duration="511000" />
+      <workItem from="1621329126325" duration="1402000" />
     </task>
     <servers />
   </component>
