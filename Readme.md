@@ -1,4 +1,4 @@
 # A zombie game
 
-## SIT 374/378 Work
+## Run by Unity 2020.3.1f1
 
